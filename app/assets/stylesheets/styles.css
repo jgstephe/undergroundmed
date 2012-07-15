@@ -20,9 +20,8 @@ html {
   background-color: #3d243a;
 }
 #outerBody {
-    position:absolute;top:0;left:1600px;
+    position:absolute;top:0;left:1410px;
     width: 300px;
-    background-image:url('redesign/background_texture4.jpg');
     /*background-color: #fff;  */
 }
 #innerBody {
