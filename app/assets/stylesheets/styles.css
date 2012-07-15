@@ -13,11 +13,10 @@ body,
 html {
   padding:0;
   color:#000;
-  font: normal 14pt Calibri;
   width: 1300px;
   margin-left:auto;
   margin-right:auto;
-  background-color: #3d243a;
+  background-color: #bfbfbf;
 }
 #outerBody {
     position:absolute;top:0;left:1410px;
@@ -38,32 +37,34 @@ html {
 }
 #header {
   width: 1300px;
-  height: 100px;
+  height: 98px;
   padding:0;
-  background-image:url('redesign/header4.jpg');
+  background-image:url('redesign/header5.jpg');
   /*background-color: #264061;    */
 }
 
 h1 {
   margin:0;
 }
+
+
 #navigation2 {
   /*background-color: #d8e4f0;  */
   width: 1300px;
-  height: 29px;
+  height: 34px;
   padding:0;
-  background-image:url('redesign/navigation4.jpg');
+  background-image:url('redesign/navigation5.jpg');
 }
 #subheader {
     /*background-color: #d8e4f0;  */
     width: 1300px;
-    height: 495px;
+    height: 501px;
     padding:0px;
-    background-image:url('redesign/subheader4.jpg');
+    background-image:url('redesign/subheader5.jpg');
 }
 #video_player {
     text-align: center;
-    margin-top:30px;
+    margin-top:10px;
     margin-left:auto;
     margin-right:auto;
     /*style="margin-left:auto; margin-right:auto;width:50%;text-align:center;   */
@@ -78,17 +79,17 @@ h1 {
   font-size: 12pt;
   text-align:center;
 }
-#tagline {
+#tabSection {
     width: 1300px;
-    height: 106px;
+    height: 42px;
     padding:0px;
-    background-image:url('redesign/tagline5.jpg');
+    background-image:url('redesign/tabs.jpg');
 }
 #main {
     width: 1300px;
-    height: 524px;
+    height: 628px;
     padding:0px;
-    background-image:url('redesign/background_texture4.jpg');
+    background-image:url('redesign/main5.jpg');
 }
 #postscript {
     /*background-color: #d8e4f0;  */

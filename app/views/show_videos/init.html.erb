@@ -28,7 +28,7 @@
 
 <div id="subheader">  .
   <div id="video_player">
-  <span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span>
+  <span id="fv_title" ><h2><b>Featured Video:&nbsp;</b><%= $featured_video_title %><h2></span>
   <table class="playerTable">
     <tr>
       <td width="20%">
@@ -43,16 +43,19 @@
   </table>
   </div>
 </div>
-<div id="tagline"></div>
-<div id="main">
+<div id="tabSection">
   <ul class="tabs">
-    <li><a href="#" rel="view1">Video List</a></li>
-    <li><a href="#" rel="view2">Current Video Details</a></li>
-    <li><a href="#" rel="view3">View Transcript</a></li>
+    <li><a href="#" rel="view1">.....List of Videos.....</a></li>
+    <li><a href="#" rel="view2">...Current Video.....</a></li>
+    <li><a href="#" rel="view3">...View Transcript...</a></li>
   </ul>
+</div>
+<div id="main">
+
   <div class="tabcontents">
     <div id="view1" class="tabcontent">
-
+      <div style="color:#1b61ab;"><h2>Welcome to UndergroundMed!</h2> </div><h3>Interactive, high-yield, brief videos on important clinical topics</h3>
+      <h3>Created by medical students, reviewed by experienced medical educators.</h3>
         <div class="videoListDiv">
           <table id="videoListTable">
             <tr>
@@ -66,10 +69,13 @@
     </div>
     </div>
     <div id="view2" class="tabcontent">
-      content 2
+      <h2>Prepared by:</h2>
+      <h2>Reviewed by:  </h2>
+      <h2>Rating:     </h2>
+      <h2>Comments:   </h2>
     </div>
     <div id="view3" class="tabcontent">
-      content 3
+      <h2>Editable transcript/notes section</h2>
     </div>
   </div>
 

@@ -3,16 +3,20 @@
 {
     padding: 6px 0;
     font-size: 14;
-    margin:0;
+    margin-left:125px;
+    margin-top:0px;
     list-style-type: none;
-    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+
 }
 
 .tabs li
 {
+    font: normal 20px Calibri;
     display: inline;
-    margin: 0;
-    margin-right:2px; /*distance between tabs*/
+    margin-top:6px;
+    margin-right:3px; /*distance between tabs*/
+    background-color:transparent;
 }
 
 .tabs li a
@@ -22,11 +26,8 @@
     position: relative;
     z-index: 1;
     padding: 6px 16px;
-    border: 1px solid #CCC;
-    border-bottom-color:#AAA;
     color: #000;
-    background: #f3f3f3;
-    border-radius: 2px 2px 0 0;
+    background-color:transparent;
     outline:none;
 }
 
@@ -37,8 +38,7 @@
 
 .tabs li a:hover
 {
-    border: 1px solid #AAA;
-    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;
+    background-color:transparent;
 }
 
 .tabs li.selected a
@@ -48,8 +48,7 @@
     position: relative;
     top: 0px;
     font-weight:bold;
-    background: white url(tabbg.gif) 0 -72px repeat-x;
-    border: 1px solid #AAA;
+    background-color:#bbbbbb;
     border-bottom-color: white;
 }
 
