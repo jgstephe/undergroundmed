@@ -26,34 +26,51 @@
 
 </script>
 
-<div id="main">
-
-  <div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span></div>
+<div id="subheader">  .
+  <div id="video_player">
+  <span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span>
   <table class="playerTable">
     <tr>
-      <td width="10%">
-        <img src="assets/PreviousVid2.png" onclick="getPreviousVideo()" class="imgButtons"/>
+      <td width="20%">
+        <img src="assets/redesign/left_arrow4.png" onclick="getPreviousVideo()" class="imgButtons"/>
       <td style="text-align: center">
             <div id="videoDiv" class="videoDivClass">Loading...</div>
             <div id="videoControls"/>
       </td>
-      <td width="10%">
-       <img src="assets/NextVid2.png" onclick="getNextVideo()" class="imgButtons"/>
+      <td width="20%">
+       <img src="assets/redesign/right_arrow4.png" onclick="getNextVideo()" class="imgButtons"/>
     </tr>
   </table>
-
-    <div class="welcomeHeader"><b> Welcome to UndergroundMed! </b></div>
-        Clinical concepts taught through <b>interactive, high-yield, 7 minute</b> videos - created by <b>medical students</b> and
-        <b>reviewed</b> for factual correctness by <b>experienced</b> medical educators.
-  <div class="videoListDiv">
-      <table id="videoListTable">
-        <tr>
-          <th>&nbsp;</th>
-          <th align="left">Title</th>
-          <th>Rating</th>
-          <th>Views</th>
-        </tr>
-       </table>
-    </div>
-
   </div>
+</div>
+<div id="tagline"></div>
+<div id="main">
+  <ul class="tabs">
+    <li><a href="#" rel="view1">Video List</a></li>
+    <li><a href="#" rel="view2">Current Video Details</a></li>
+    <li><a href="#" rel="view3">View Transcript</a></li>
+  </ul>
+  <div class="tabcontents">
+    <div id="view1" class="tabcontent">
+
+        <div class="videoListDiv">
+          <table id="videoListTable">
+            <tr>
+              <th>&nbsp;</th>
+              <th align="left">Title</th>
+              <th>Rating</th>
+              <th>Views</th>
+            </tr>
+          </table>
+        </div>
+    </div>
+    </div>
+    <div id="view2" class="tabcontent">
+      content 2
+    </div>
+    <div id="view3" class="tabcontent">
+      content 3
+    </div>
+  </div>
+
+<div id="postscript"></div>

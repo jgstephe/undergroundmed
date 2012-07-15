@@ -1,0 +1,79 @@
+
+.tabs
+{
+    padding: 6px 0;
+    font-size: 14;
+    margin:0;
+    list-style-type: none;
+    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+}
+
+.tabs li
+{
+    display: inline;
+    margin: 0;
+    margin-right:2px; /*distance between tabs*/
+}
+
+.tabs li a
+{
+    font: normal 14px Calibri;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    padding: 6px 16px;
+    border: 1px solid #CCC;
+    border-bottom-color:#AAA;
+    color: #000;
+    background: #f3f3f3;
+    border-radius: 2px 2px 0 0;
+    outline:none;
+}
+
+.tabs li a:visited
+{
+    color: #000;
+}
+
+.tabs li a:hover
+{
+    border: 1px solid #AAA;
+    background:#F0F0F0 url(tabbg.gif) 0 -36px repeat-x;
+}
+
+.tabs li.selected a
+{
+    /*selected tab style */
+    padding: 9px 16px 6px;
+    position: relative;
+    top: 0px;
+    font-weight:bold;
+    background: white url(tabbg.gif) 0 -72px repeat-x;
+    border: 1px solid #AAA;
+    border-bottom-color: white;
+}
+
+
+.tabs li.selected a:hover
+{
+    /*selected tab style */
+    text-decoration: none;
+}
+
+.tabcontent
+{
+    width:800px;
+    display: block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.tabcontents
+{
+    width:800px;
+    margin-right:auto;
+    margin-left:auto;
+    /*border: 1px solid #AAA;   */
+    background-color:transparent;
+    border-radius: 2px;
+}

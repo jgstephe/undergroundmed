@@ -29,13 +29,19 @@
   </script>
 
 </head>
-<body>
-<div id="innerBody">
-<div id="header">
-  <img src="assets/logo.jpg"/>
-</div>
 
-<div id="navigation">
+<body>
+<div id="outerBody">
+  <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+  <script type="text/javascript">
+      loadTwitter();
+  </script>
+</div>
+<div id="innerBody">
+  <div id="header">
+    <!--<img src="assets/logo.jpg" />   -->
+  </div>
+<div id="navigation2">
   <div style="margin-left:auto; margin-right:auto; width:380px;">
     <div id="mainNav">
     <ul>
@@ -60,6 +66,7 @@
       </div>
   </div>
 </div>
+
 <div id="wrap">
 
   <%= yield %>
@@ -67,10 +74,6 @@
 
 
   <div id="footer">
-    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-    <script type="text/javascript">
-        loadTwitter();
-    </script>
   </div>
 </div>
 </div>
