@@ -16,7 +16,7 @@ html {
   width: 1300px;
   margin-left:auto;
   margin-right:auto;
-  background-color: #bfbfbf;
+  background-image: url('redesign/outerbody_texture6.jpg');
 }
 #outerBody {
     position:absolute;top:0;left:1410px;
@@ -211,7 +211,7 @@ h1 {
   border: none;
   padding-top: 2px;
   padding-bottom: 2px;
-  color: #268cc4;
+  /*color: #268cc4; */
   font-size: 10pt;
 }
 
@@ -249,7 +249,7 @@ h1 {
 
 #mainNav li ul { /* second-level lists */
   position: absolute;
-  background: #eeeeee;
+  background-color: #eeeeee;
   width: 14em;
   left: -999em;
   padding-bottom: 6px;
