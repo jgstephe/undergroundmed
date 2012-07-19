@@ -65,14 +65,19 @@ class ShowVideosController < ApplicationController
     YouTubeApiCallsHelper.parse_video_list(response.body, video_list)
     total_results = YouTubeApiCallsHelper.get_total_results(response.body)
 
-    # if there are more results to fetch, loop till we have them all
-    while video_list.length  < total_results
+    if video_list.length  < total_results
       start_index +=  YouTubeApiCallsHelper::MAXRESULTS
-      response =   YouTubeApiCallsHelper.get_video_list(start_index)
-      YouTubeApiCallsHelper.parse_video_list(response.body, video_list)
+
+      # if there are more results to fetch, loop till we have them all
+      while video_list.length  < total_results
+        #start_index +=  YouTubeApiCallsHelper::MAXRESULTS
+        response =   YouTubeApiCallsHelper.get_video_list(start_index)
+        count = YouTubeApiCallsHelper.parse_video_list(response.body, video_list)
+        start_index += count
+      end
     end
 
-    return video_list
+      return video_list
   end
 
   def save_contact

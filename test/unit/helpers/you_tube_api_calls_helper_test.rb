@@ -12,6 +12,7 @@ class YouTubeApiCallsHelperTest < ActionView::TestCase
   test "build_args" do
     args = YouTubeApiCallsHelper.build_args(1)
     assert_equal(YouTubeApiCallsHelper::VIDEOLISTARGS+"&start-index=1&max-results=50", args)
+    #assert_equal(YouTubeApiCallsHelper::VIDEOLISTARGS+"&start-index=1", args)
   end
 
   test "read_video_list" do

@@ -21,21 +21,26 @@ module YouTubeApiCallsHelper
 
   def YouTubeApiCallsHelper.build_args(start_index)
     args =  VIDEOLISTARGS + "&start-index=" + start_index.to_s + "&max-results=" + MAXRESULTS.to_s
+    #args =  VIDEOLISTARGS + "&start-index=" + start_index.to_s
+
     return args
   end
 
     def YouTubeApiCallsHelper.parse_video_list (xml, video_list)
     doc = REXML::Document.new xml
+    added_count  = 0;
 
     doc.elements.each("feed/entry") do |element|
       video =  parse_one_entry(element)
 
       if(!video.nil?)
         video_list.push(video)
+        added_count += 1
         end
       end
 
       number_unknown_videos(video_list)
+      return added_count
   end
 
   def YouTubeApiCallsHelper.parse_one_entry(element)
