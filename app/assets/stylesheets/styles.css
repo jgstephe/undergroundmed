@@ -61,11 +61,13 @@ h1 {
   padding: 2px 0;
   background-color: #d8e4f0;
   font-size: 12pt;
+  text-align:center;
 }
 
 #main {
   float:left;
   padding:10px;
+  text-align:center;
 }
 #footer {
   clear:both;
