@@ -21,7 +21,6 @@ module YouTubeApiCallsHelper
 
   def YouTubeApiCallsHelper.build_args(start_index)
     args =  VIDEOLISTARGS + "&start-index=" + start_index.to_s + "&max-results=" + MAXRESULTS.to_s
-    #args =  VIDEOLISTARGS + "&start-index=" + start_index.to_s
 
     return args
   end
