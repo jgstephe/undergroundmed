@@ -65,7 +65,8 @@ function startPlay() {
 }
 
 function endPlay() {
-  if(currentStats.getPlayState() == PLAYING)  {
+
+  if(currentStats.getPlayState() == PLAYING )  {
     recordStats(endPlayURL,  null, getCurrentDate());
     currentStats.setPlayState(UNSTARTED); // if there is more than one transition event this keeps from recording twice.
   }

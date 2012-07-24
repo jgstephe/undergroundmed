@@ -38,6 +38,6 @@ statsObject.prototype.setPlayState = function(value) {
   this.playState = value;
 }
 
-statsObject.prototype.isPaused = function(value) {
+statsObject.prototype.isPaused = function() {
   return this.playState == PAUSED;
 }
