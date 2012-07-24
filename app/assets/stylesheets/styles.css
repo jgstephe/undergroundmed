@@ -11,6 +11,7 @@ a:hover {
 
 body,
 html {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
     padding:0;
     color:#000;
     width: 1610px;
@@ -73,16 +74,16 @@ h1 {
 
 #tabSection {
     width: 1300px;
-    height: 44px;
+    /*height: 44px; */
     padding:0px;
-    background-image:url('redesign2/tabSection.jpg');
+    /*background-image:url('redesign2/tabSection.jpg');  */
 }
 
 #main {
     width: 1300px;
-    height: 629px;
+    height: 636px;
     padding:0px;
-    background-image:url('redesign2/main.jpg');
+    background-image:url('redesign2/main_notabs.jpg');
 }
 
 
@@ -121,18 +122,19 @@ h1 {
 }
 #videoListTable th
 {
-    font-size: 14px;
-    font-weight: normal;
-    color: black;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
     padding: 2px 8px;
     /*border-bottom: 2px solid #d8e4f0;   */
-    background-color: #999999;
+    background-color: #254061;
 }
 #videoListTable td
 {
     color: black;
     padding: 2px 8px;
-    background-color: #c6bfba;
+    background-color: #dddddd;
 }
 
 #videoListTable a {
@@ -184,7 +186,7 @@ h1 {
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: transparent;
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 #subNav ul, #caseNav ul {
@@ -262,6 +264,7 @@ h1 {
 }
 
 #mainNav ul ul a:hover {
+  width: 8.5em;
   background: #666666;
   opacity:.95;
 }
@@ -274,3 +277,13 @@ h1 {
 }
 #subNav ul li a {color: #333;}
 #subNav ul li li a {color: #3e63ac;}
+
+.twtr-tweet-text {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.twtr-hyperlink a{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
