@@ -57,4 +57,3 @@ production:
   host: localhost
   port: 5432
   username: postgres
-  password: sea7ttle
