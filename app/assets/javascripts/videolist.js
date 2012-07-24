@@ -19,6 +19,7 @@ function getVideoList(value)    {
         allVideosList = data;
       hideProgressDialog();
       setPositionForFeaturedVideo (featuredVideoId) ;
+      newStats(featuredVideoId);
     },
     error: function(xhr, status, error) {
       showMsg(error);
@@ -174,7 +175,7 @@ function findVideoByid(yt_id)   {
     var index = findPositionInList(currentPosition);
     var video = currentVideoList[index-1];
     currentPosition = video.order;
-    loadVideo(video.yt_id);
+    cueVideo(video.yt_id);
   }
 
   function getNextVideo() {
@@ -185,7 +186,7 @@ function findVideoByid(yt_id)   {
     var index = findPositionInList(currentPosition);
     var video = currentVideoList[index+1];
     currentPosition = video.order;
-    loadVideo(video.yt_id);
+    cueVideo(video.yt_id);
   }
 
 function showVideoTitle(id) {

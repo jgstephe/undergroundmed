@@ -1,5 +1,7 @@
 Undergroundmed::Application.routes.draw do
 
+  get "viewing_stats/save"
+
   get "show_videos/init"
 
   get "show_videos/get_list"
@@ -7,6 +9,10 @@ Undergroundmed::Application.routes.draw do
   post "show_videos/save_contact"
 
   get "show_videos/update_id"
+
+  post "viewing_stats/start_play"
+
+  post "viewing_stats/end_play"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

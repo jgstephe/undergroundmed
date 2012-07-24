@@ -7,6 +7,7 @@ class ShowVideosController < ApplicationController
   $featured_video_id="F8TYLT0-5fs"
   $featured_video_title=""
   $xor_key = 6
+  $user = "unknown"
 
   SESSION_KEY_ALL_VIDEOS = "all_videos"
   def init
@@ -14,6 +15,7 @@ class ShowVideosController < ApplicationController
     @category_list =  get_category_list(video_list)
     $featured_video_title =  get_featured_title (video_list)
     RunTimeEnvironment.log_runtime_environment()
+    $user = get_user params
   end
 
   def get_category_list  (video_list)
@@ -167,6 +169,14 @@ class ShowVideosController < ApplicationController
     found = ShowVideosHelper.find_id(id, video_list)
   end
 
+   def get_user params
+     user = params[:user]
 
+     if user == nil || user.length == 0
+       user = "unknown"
+     end
+
+     return user
+   end
 
 end
