@@ -34,7 +34,7 @@ html {
 #wrap {
   margin:0 auto;
 }
-#header2 {
+#header3 {
     width: 1300px;
     height: 93px;
     padding:0;
@@ -45,7 +45,7 @@ html {
 h1 {
   margin:0;
 }
-#navigation2 {
+#navigation3 {
     /*background-color: #d8e4f0;  */
     width: 1300px;
     height: 39px;
@@ -108,8 +108,8 @@ h1 {
 
 #videoListTable
 {
-  font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 12px;
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-size: 18px;
   background: #fff;
   margin-left:auto;
   margin-right:auto;
