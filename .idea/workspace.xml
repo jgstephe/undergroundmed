@@ -2,9 +2,182 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946b2b32-d563-4854-9329-31400e416ee4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\.generators" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\undergroundmed.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\BE1\260\sprockets%2F1a289d8187e997055f79364470750666" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C06\2A0\sprockets%2F792d6154773093a2358b17894c87636d" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C3A\8B0\sprockets%2F6026696008c40d03315d01cdde572522" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C42\1C0\sprockets%2F87581469d4171495b12200c3a2dc53b2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C4F\A90\sprockets%2F90144308027e368a75a44b409fe4c619" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C50\F80\sprockets%2F09f4844c399a8733f518505119ae002b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C53\0C0\sprockets%2F12c9304d412425c4b27a3a103e12a052" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C56\E70\sprockets%2F608da9135b064399dc438d2476261e90" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C57\6F0\sprockets%2F66c6968a53dc7b4897429211312bb724" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C5B\AB0\sprockets%2F41c42493044ec947f0f27915b029778f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C5E\E40\sprockets%2F66831d026483df69d527591717cf332e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C66\0F0\sprockets%2F2f198544865693f8f6b4854d42cf2233" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C7A\6B0\sprockets%2Fe9998d132949d498653459e7b81057fd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C7F\970\sprockets%2F33e720265740e514fa6476259cc4e1e5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C84\960\sprockets%2Ffe91617f541877904c6ea290052f307a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C8E\240\sprockets%2F063f5b38f46192ab90c748e9c0709972" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C91\1D0\sprockets%2F7b859381ed3748a4d635b1608c5f9147" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\C97\FF0\sprockets%2F49205748e5845fe2c184f2c628f5d648" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CA2\060\sprockets%2F22db02df64007a660397e068b824db51" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CA2\1A0\sprockets%2F0c90c4208fdaf3f0a97373380a276105" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CA8\0F0\sprockets%2F7858012f0bfa040cd73e79eb09069113" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CAC\0D0\sprockets%2F382dae1be11468358c6575f39df03004" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CAE\450\sprockets%2Fa786175613039c7331a324c5cef7b6e4" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CAF\910\sprockets%2F4be5f26a1247410b7ae294e18d745287" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CB5\F00\sprockets%2F24c92a48f6d1e27aaa05996676483a42" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CB7\7D0\sprockets%2F2880875ed68713ba8634d1194f3c1c6b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CB8\330\sprockets%2F8d9120752c9f38f7a5e164395e5d0c04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CB8\690\sprockets%2F37256f133f0ade199f3639f11b4876d3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CC6\390\sprockets%2F9e138e79fa7309cda637f32f97296610" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CC9\640\sprockets%2F78b0249cd3c2b1e6c1db71a299302202" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CCC\B20\sprockets%2F11444791ba0083d0590fe9fdfc3501a0" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CCE\2F0\sprockets%2Fa82061d18001b918ab973a5de032e28e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CCF\EE0\sprockets%2F13d4e0b9a173995aa31c5a5f2371034f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CD8\370\sprockets%2F357970feca3ac29060c1e3861e2c0953" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CD9\130\sprockets%2Fa51a3460f0caa815817680e3438bc69f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CDC\DA0\sprockets%2F1421792364c6ee25a906f755cfb4c1b3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CDE\850\sprockets%2F7ac535a47175016bbbbb848826a08d69" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CDF\E30\sprockets%2Fd2894578d7877e82eb68d2f8b97d6609" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CE3\2D0\sprockets%2F805941e1ffd8c42ec7648616a6510be3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CE3\A10\sprockets%2F2520c1e5954e6fc3e6a5c768186ac173" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CE5\A50\sprockets%2F8927dcf284d71f2ad3934635221eda65" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CE6\800\sprockets%2Fad5909b19a2dd5b9f0031a65e5749739" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CE6\BB0\sprockets%2F067302be7fc4e929ed234394d639bf22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CE8\970\sprockets%2F05c0f2b572d0aff08c899365c9f41656" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CE9\970\sprockets%2F65c669033b6c98269bd3c6b6d18f14b3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CEA\2B0\sprockets%2F7159c804f50f4baa36585dd553885c2f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CEA\3D0\sprockets%2F4d954521ff197d660212c8a4ff31ff86" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CEA\B40\sprockets%2F67a234ebe88c6eb07525a2546917ff45" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CF1\A90\sprockets%2F485ff3ed8a98a11b67987a91c350b844" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CF2\C30\sprockets%2F2a26b9fdc199e71a900f073e4549879f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\CFF\DC0\sprockets%2F029d131ed1c6de505a654468f150bd0e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D00\FD0\sprockets%2F25fe2e173df6c06a0181da26b14950e5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D05\D70\sprockets%2Fa57c7b083bd8089eb032c54600ee3d34" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D06\3E0\sprockets%2Fd9ecd64737978a07382ec89593e64fb8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D0D\E60\sprockets%2F039d5401e0afa38fa7952b6a96378c2b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D0F\330\sprockets%2Faf834653a0ad95da0597d30049b1c9e9" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D11\1D0\sprockets%2Fd4285df0567c10f06fc3350bf687f6d1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D11\980\sprockets%2F34fff4e66d3b6d8a210d2843035f5f46" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D12\BD0\sprockets%2F8debec6c89be00e20607180f8a584463" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D12\D00\sprockets%2Fc2528bd2ac17ba40c4891bf79219d787" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D13\2F0\sprockets%2F13a6f9db666558c1d0d8aa9c79c35114" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D1D\3D0\sprockets%2Fa97e6602674e7f1580572cb7677fbbbb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D1D\FE0\sprockets%2F5a04d800e2c442afa3b0c0e20dd52449" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D20\A20\sprockets%2Fa7dbf5dce878e9f92f57046021276b90" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D21\A50\sprockets%2Feb094bfe70c49891ce65c0178d88d904" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D25\6C0\sprockets%2F3d72b12a721cb493ea02bfb6492631ba" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D27\810\sprockets%2F52b8200e2abcbd10cc52c383485bd645" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D30\920\sprockets%2F5a21a2ab38932addc825d827a83b2e07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D31\6B0\sprockets%2Fa7f58d287e9824d7a9e159f5faf96405" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D32\A10\sprockets%2F13fe41fee1fe35b49d145bcc06610705" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D34\130\sprockets%2F9a5c11d810e2e1f87ea6452113cc7e4c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D35\0B0\sprockets%2F43636e38a4cead84ef060a2c473180dc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D39\290\sprockets%2Ff1865c6c33110ea8911efa5c34ec718c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D39\6E0\sprockets%2F12e2a1b7d6cc648521c12fcf28de2677" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D39\A50\sprockets%2Fe4d3227aaf5e60fe31624fe0129972cc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D3C\5E0\sprockets%2Fbb65e9a2d2ce45f238d497ed22c21245" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D3D\910\sprockets%2Fa5d9b4704e9be623728be1d902f360bd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D3F\C90\sprockets%2F11f047d6d25f636fab8fc55a5d83361c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D3F\E20\sprockets%2Fab1fb9492cf5f42491c1a8b67cd17507" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D3F\EE0\sprockets%2Ff433325a1599950d20fdda8ae5ec54d5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D40\490\sprockets%2Fe1cc83be9dc110854e6c14a6839d31d9" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D40\FC0\sprockets%2F8c3b408a08ff1b19bc5f55035e0e896c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D41\9F0\sprockets%2F351d9382e0fad805cf779efee30106b4" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D45\D70\sprockets%2F6d09a41d1e357c7fff2d8a80a4a09759" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D46\0A0\sprockets%2F93be7bc1009906c57f1f454bffe851c5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D46\240\sprockets%2F730624cc5d3d6794caa76f21aa697de8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D4A\760\sprockets%2Fb9ab89d58ac5e62409de8727750ce05a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D4E\1B0\sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D50\E00\sprockets%2F3ec6d1669a563ff818e467b2882b2ded" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D51\E20\sprockets%2F2034ea21f7d5fb98153589eb9aaee889" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D53\420\sprockets%2Faa134dba67ae03262ceae027c37158a3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D5A\EA0\sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D5C\BD0\sprockets%2F1db15b5f546c4cc7066f32b5af7c02a1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D60\820\sprockets%2Ff38f7892ac1ce0db0ac3da30441408f6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D62\FF0\sprockets%2Fd56f82bdc12f4fb201d177331cf5c54b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D64\7D0\sprockets%2Fa7234b344c52501b1f5fc984d3f3cadf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D64\9C0\sprockets%2Fa142c42a986dda33284c163daabd7f48" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D6C\FE0\sprockets%2F7b4c27ab1346cd469f54d5f7c104dd5b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D6F\8C0\sprockets%2F27411e5f8b1e5f2fa78b69aa142d3d7e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D6F\DD0\sprockets%2Febf70a32d678c3a4dbc67c58518b04c8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D71\E70\sprockets%2Fecef05b5676428e7450ea551e906dbda" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D72\340\sprockets%2F22516fd1f9daf04ec4b5ac994781f40f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D73\520\sprockets%2F8bd6ca8e37a246e30b875f21ccd6194f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D75\7B0\sprockets%2Fac26ecdb061c886e426487ec51e3c9c6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D77\250\sprockets%2Ff43bd83abe16479a83eb2be29ff81905" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D77\F10\sprockets%2F2f2b5f186bafe931d95c1fd864e23e90" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D78\6D0\sprockets%2Ffea3a65b1cbd767a7ba0678f45738a69" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D7A\2C0\sprockets%2F766ab68c7aa75796eaf424e12daa86d6" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D7E\310\sprockets%2Ffbe7492876fd19e34c2cc0cfb652765e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D7E\7F0\sprockets%2F6d3f6356b0ed31077c9b5898ba49ffea" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D81\080\sprockets%2F76d5caebbae85902f7e96b99ab564904" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D81\4B0\sprockets%2Fadffc110b2e582190fca0dc78c4a0230" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D83\C20\sprockets%2F0e2280fac111d18fab72cc7be1a51e27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D8F\620\sprockets%2F23da5f42a4b415ecdf511e93064ced1f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D8F\E60\sprockets%2Fd71d1453a6adbb35de4c08b84c62f5a1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D90\080\sprockets%2Fecea2a1604d384ad362ac188acf3376c" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D93\100\sprockets%2Fe0ada2c774a209c2fc920db9e52c67d1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D95\2F0\sprockets%2Fadaa907d310f6d9e54341f93ebf131be" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D9C\2F0\sprockets%2F61b076022b66d4dafd96f3d5e6bf2cf2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D9D\210\sprockets%2F107b84b3517edcedb6d5549bec26d8b1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\D9D\FB0\sprockets%2F2a926f4fe55bbde9920ad866ddee0101" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DA1\FA0\sprockets%2F69f255b6bd9de55c01f301b77dbac6e7" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DA4\9A0\sprockets%2F1193571808d619fea1bfc9ddfffa6d12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DA4\E40\sprockets%2Ff0497e8b422a5efb74947f5cab37ad3b" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DA5\500\sprockets%2F96064dfd995621eebde1bc5096ac4ec3" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DA7\A00\sprockets%2Fd49fc1be7b36a69a105b647f0f94d5ef" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DA8\280\sprockets%2Fa9772c627d96d3fa6085efafd5bf0a26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DAA\960\sprockets%2Fae28d54faf5320bc9ffd3959b66ad483" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DAC\250\sprockets%2F1bcd7dbdce2ed99248dc908a47d07964" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DAD\6A0\sprockets%2Fbe3ab848476d345ed48a0e88ed8b3e8a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DAF\5A0\sprockets%2Ff28fa98b976eaf33909c89ba0f1aed16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DB3\3E0\sprockets%2F87ef7123a61a3a63fe79d6d7eef5bf85" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DB3\700\sprockets%2F2c7dcaee67f031cdba43a160ba6c6016" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DB5\370\sprockets%2Ffa35f3988e62e237e41dc269bd9e6ede" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DB5\D50\sprockets%2F00a63a9ed440dad0822c4ddcaa88ca16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DB6\ED0\sprockets%2Fa8098cebe8e59adf319a7b876a6d487a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DC3\1D0\sprockets%2F636d8104ce3dce0a0ec14b99ccb33e5f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DC3\280\sprockets%2F415356adbb2c3cbc11e8bbfb77b70e69" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DC5\120\sprockets%2F3cc8cd41b37c4bf77476832acb4eda0a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DCA\790\sprockets%2F5f560cfbbdfd4b8450b6345c580ab8eb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DCC\630\sprockets%2F1a6aefdea2de9816f4d70b735a066af5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DCC\6B0\sprockets%2F18afc317a4edb65b49ae864fa811fa3e" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DCE\210\sprockets%2F386ed03fc4aa6ce6b8b7b160cc9286fa" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DD8\DF0\sprockets%2Feeebde19fcff2675593721b168ff13ba" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DDA\100\sprockets%2F997f9e05f7e0dd121bde6b539a2aede8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DDB\EF0\sprockets%2F9c58dc8df990cf4c8da616a9a51bea08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DDC\400\sprockets%2Fcffd775d018f68ce5dba1ee0d951a994" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DDD\670\sprockets%2Fcb7a0a9122c672dec30b1bad2cd22ad8" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DEF\0F0\sprockets%2F71d3a3d1be54eda8799acedbabd61201" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DEF\5E0\sprockets%2Fb63d27f24cf69a3edac9f949b7fe7e89" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DF4\630\sprockets%2F2ec1dd85c7436aa0acc91577de7acf0a" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DF6\B50\sprockets%2F2ccc53ac762d1e00d3fbd4eb1eed4979" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DF7\EF0\sprockets%2F7ee52f3f02dcbfb2d78aca04fc841e71" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\DFF\D60\sprockets%2Fe34ae44d4147ba5b9fb68cb6d62de1fe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E04\890\sprockets%2F2f5173deea6c795b8fdde723bb4b63af" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E17\150\sprockets%2F9bac91066b1d2a47fb3c37d0bbacc5bc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E2D\F50\sprockets%2Fcba0a740ddbf9cfef70d84e37f5f06c2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E31\F60\sprockets%2F61c5f0bddc0a62ddc856ee9ebeab2897" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E39\DB0\sprockets%2F0671218d7eedf16ee4fde8cf46bed1df" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E46\370\sprockets%2Faacf15fdc4b5fd2d401bba8fd362f0b2" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E59\860\sprockets%2F5ec4ea94addab4c15b6d5d09dee24ed5" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E5E\D90\sprockets%2F175b9a4cdd5dc7ccd2dd6def5656abe0" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E68\830\sprockets%2Fbeecb5fc6bfde0ed347c6e929173c9bd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\assets\E6B\4A0\sprockets%2F3faef34b5cc7ffabd796b953fb81db6f" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\sass\01698d18f901d10cba504eccf44c759684891208\show_videos.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\cache\sass\1660e63c5b84d2700497cdf1eb47441d4c91b0c7\home.css.scssc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\tmp\pids\server.pid" afterPath="" />
     </list>
     <ignored path="undergroundmed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -575,14 +748,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="3" width="1927" height="1032" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15421817" sideWeight="0.601359" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.398641" sideWeight="0.4981193" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398641" sideWeight="0.4981193" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.398641" sideWeight="0.4981193" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.83772165" order="2" side_tool="false" content_ui="tabs" />
