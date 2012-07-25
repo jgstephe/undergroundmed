@@ -26,34 +26,41 @@
 
 </script>
 
-<div id="main">
-
+<div id="subheader">
+  <br />
   <div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span></div>
-  <table class="playerTable">
+  <table class="playerTable"> <br />
     <tr>
       <td width="10%">
-        <img src="assets/PreviousVid2.png" onclick="getPreviousVideo()" class="imgButtons"/>
+        <img src="assets/redesign/left_arrow4.png" onclick="getPreviousVideo()" class="imgButtons"/>
       <td style="text-align: center">
             <div id="videoDiv" class="videoDivClass">Loading...</div>
             <div id="videoControls"/>
       </td>
       <td width="10%">
-       <img src="assets/NextVid2.png" onclick="getNextVideo()" class="imgButtons"/>
+       <img src="assets/redesign/right_arrow4.png" onclick="getNextVideo()" class="imgButtons"/>
     </tr>
   </table>
+</div>
 
-    <div class="welcomeHeader"><b> Welcome to UndergroundMed! </b></div>
-        Clinical concepts taught through <b>interactive, high-yield, 7 minute</b> videos - created by <b>medical students</b> and
-        <b>reviewed</b> for factual correctness by <b>experienced</b> medical educators.
-  <div class="videoListDiv">
-      <table id="videoListTable">
-        <tr>
-          <th>&nbsp;</th>
-          <th align="left">Title</th>
-          <th>Rating</th>
-          <th>Views</th>
-        </tr>
-       </table>
-    </div>
+<div id="tabSection">
+</div>
 
-  </div>
+
+<div id="main">
+
+<h2 style="color:#254061;font-size:28px;">Welcome to UndergroundMed!</h2>
+<h3 style="color:black;font-size:20px;">Quick, high-yield, interactive videos on important clincal topics.</h3>
+<h3 style="color:black;font-size:20px;">Created by medical students and reviewed by experienced medical educators.</h3>
+<div class="videoListDiv">
+  <table id="videoListTable">
+    <tr>
+      <th>&nbsp;</th>
+      <th align="left">Title</th>
+      <th>Rating</th>
+      <th>Views</th>
+    </tr>
+   </table>
+</div>
+
+</div>
