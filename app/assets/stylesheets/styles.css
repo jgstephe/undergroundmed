@@ -35,14 +35,14 @@ html {
 #wrap {
   margin:0 auto;
 }
-#header3 {
+#header4 {
     width: 1300px;
     height: 93px;
     padding:0;
     background-image:url('redesign2/header.jpg');
     /*background-color: #264061;    */
 }
-#header3 img{
+#header4 img{
     margin-left:1100px;
     background-image:url('redesign2/header.jpg');
     /*background-color: #264061;    */
@@ -50,7 +50,7 @@ html {
 h1 {
   margin:0;
 }
-#navigation3 {
+#navigation4 {
     /*background-color: #d8e4f0;  */
     width: 1300px;
     height: 39px;
