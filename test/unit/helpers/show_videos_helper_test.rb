@@ -135,4 +135,9 @@ class ShowVideosHelperTest < ActionController::TestCase
     assert_equal(email_de, unencoded_email)
 
   end
+
+  def test_get_all_videos
+    video_list = @controller.get_all_videos
+    assert_not_nil(video_list)
+  end
 end
