@@ -42,7 +42,11 @@ html {
     background-image:url('redesign2/header.jpg');
     /*background-color: #264061;    */
 }
-
+#header3 img{
+    margin-left:1100px;
+    background-image:url('redesign2/header.jpg');
+    /*background-color: #264061;    */
+}
 h1 {
   margin:0;
 }
@@ -88,7 +92,9 @@ h1 {
 
 
 #footer {
-  clear:both;
+   width: 1300px;
+   /*height: 39px;
+   background-image:url('redesign2/footer3.jpg');    */
 }
 /* styles for the player area */
 /* table that contains the player and buttons */
@@ -168,7 +174,7 @@ h1 {
   padding: 0;
   margin: 0;
   list-style: none;
-  line-height: 18px;
+  line-height: 16px;
 }
 
 #mainNav {
@@ -186,18 +192,18 @@ h1 {
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: transparent;
-  font-size: 12pt;
+  font-size: 16px;
 }
 
 #subNav ul, #caseNav ul {
   margin-left: 0;
   list-style: none;
-  line-height: 18px;
+  line-height: 16px;
 }
 
 #subNav a, #caseNav a {
   color: #3e6399;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 #subNav ul {
@@ -209,16 +215,18 @@ h1 {
   display: block;
   width: auto;
   padding: 1px 20px;
-  color: black;
+  color: #404040;
   font-weight: normal;
-  font-size: 14pt;
+  font-size: 22px;
+  font-weight: bolder;
 }
 
 #mainNav li {
   float: left;
   width: auto;
   margin: 0;
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 #mainNav li ul { /* drop-down menu/second-level lists */
@@ -232,8 +240,10 @@ h1 {
 }
 
 #mainNav li ul a {
-  width: 9em;
+  width: 8em;
   color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 #mainNav li ul ul { /* third-and-above-level lists */
