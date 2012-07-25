@@ -17,18 +17,20 @@ html {
     width: 1610px;
     margin-left:auto;
     margin-right:auto;
-    background-color: #f1f2f2;
+    background-image:url('redesign2/backgroundtexture.jpg');
+   /* background-color: #e7edfc;   */
 
 }
 
 #innerBody {
     width: 1300px;
     border: 2px solid #999999;
+    background-color: #f1f2f2;
 }
 
 #outerBody {
     float: right;
-    background-color: #e7edfc;
+    background-image:url('redesign2/backgroundtexture.jpg');
     width: 300px;
 }
 
@@ -88,7 +90,7 @@ h1 {
     height: 636px;
     padding:0px;
     background-image:url('redesign2/main_notabs.jpg');
-    text-align: center;
+
 }
 
 
