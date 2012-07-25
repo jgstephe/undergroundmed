@@ -62,11 +62,14 @@ function loadPlayer(id) {
  Possible event values are unstarted (-1), ended (0), playing (1), paused (2), buffering (3), video cued (5).
  When the SWF is first loaded it will broadcast an unstarted (-1) event. When the video is cued and ready to play
  it will broadcast a video cued event (5).
+
+ We record ending times when the player is paused. The thought is that they have stopped, so record how long they watched. If they restart then
+ when they end we will record a new ending time.
  */
 function handleStateChange (event) {
 
   // if we are transitioning between states see if there is anything to record`
-  if(event != PAUSED && event != BUFFERING)  {
+  if( event != BUFFERING)  {
     endPlay();
   }
 

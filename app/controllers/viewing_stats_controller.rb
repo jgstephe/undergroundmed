@@ -51,7 +51,7 @@ class ViewingStatsController < ApplicationController
     stats.minutes_watched = elapsed_time
 
     stats.save
-    msg = [SUCCESS]
+    msg = [id]
     rescue   Exception => exception
       puts "---- Exception: viewing_stats/end_play " + exception.to_s
       msg = [ERROR]
