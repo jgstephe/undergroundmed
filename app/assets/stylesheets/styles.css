@@ -185,6 +185,7 @@ h1 {
   /*background: #d8e4f0; */
   background-color: transparent;
   width: 100%;
+
 }
 
 #mainNav ul ul {
@@ -221,7 +222,7 @@ h1 {
   padding: 1px 20px;
   color: #404040;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
