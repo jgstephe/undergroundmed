@@ -140,4 +140,39 @@ class ShowVideosHelperTest < ActionController::TestCase
     video_list = @controller.get_all_videos
     assert_not_nil(video_list)
   end
+
+  def test_update_id
+
+    new_id = "ta9KNbcq-KI"
+    settings = AppSettings.first
+    assert_not_nil(settings)
+
+    env = Rack::MockRequest.env_for("/",:params => {"id" => new_id })
+
+    endpoint = ShowVideosController.action(:update_id)
+    body = endpoint.call(env)
+
+    settings = AppSettings.first
+    assert_not_nil(settings)
+    assert_equal(new_id, settings.featured_video_id)
+
+  end
+
+  def test_get_featured_video_id
+    video_id = @controller.get_video_id_from_db
+
+    assert_equal("F8TYLT0-5fs", video_id)
+  end
+
+  def test_init_video_id
+
+    env = Rack::MockRequest.env_for("/",:params => {"user" => "rlc" })
+
+    endpoint = ShowVideosController.action(:init)
+    body = endpoint.call(env)
+
+    assert_not_nil(body)
+
+  end
+
 end

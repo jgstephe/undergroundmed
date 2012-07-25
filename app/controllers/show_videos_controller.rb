@@ -3,8 +3,7 @@ require 'uri'
 
 class ShowVideosController < ApplicationController
 
-  #$featured_video_title="Chest X-Ray Viewing Method - ABCDE"
-  $featured_video_id="F8TYLT0-5fs"
+  $featured_video_id= ""
   $featured_video_title=""
   $xor_key = 6
   $user = "unknown"
@@ -13,6 +12,7 @@ class ShowVideosController < ApplicationController
   def init
     video_list = get_current_list
     @category_list =  get_category_list(video_list)
+    $featured_video_id = get_video_id_from_db
     $featured_video_title =  get_featured_title (video_list)
     RunTimeEnvironment.log_runtime_environment()
     $user = get_user params
@@ -136,6 +136,10 @@ class ShowVideosController < ApplicationController
       if find_id(newId, video_list)
           set_featured_id(newId)
           $featured_video_title = get_featured_title(video_list)
+
+          settings = AppSettings.first
+          settings.featured_video_id = newId
+          settings.save
       else
         puts "update_id: unknown id: " + newId
       end
@@ -178,5 +182,11 @@ class ShowVideosController < ApplicationController
 
      return user
    end
+
+  def get_video_id_from_db
+    settings = AppSettings.first
+
+    return settings.featured_video_id
+  end
 
 end
