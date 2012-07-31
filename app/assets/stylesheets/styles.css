@@ -11,53 +11,56 @@ a:hover {
 
 body,
 html {
-    font-family: Calibri, Arial, Helvetica, sans-serif;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 10pt;
     padding:0;
     color:#000;
-    width: 1610px;
     margin-left:auto;
     margin-right:auto;
-    background-image:url('redesign2/backgroundtexture.jpg');
-   /* background-color: #e7edfc;   */
-
 }
 
-#innerBody {
-    width: 1300px;
-    border: 2px solid #999999;
-    background-color: #f1f2f2;
+#wrap {
+  width:972px;
+  margin:0 auto;
+  padding: 0;
+  background-color: white;
+}
+
+#main {
+  width: 650px;
+  float: left;
+  padding:0px;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 0;
+  margin-bottom: 0 ;
+  margin-right: 2px;
 }
 
 #outerBody {
     float: right;
-    background-image:url('redesign2/backgroundtexture.jpg');
-    width: 300px;
+    width: 275px;
+    padding: 0px;
+    margin-top: 2px;
+    margin-left: 0;
+    margin-bottom: 0 ;
+    margin-right: 0px;
+}
+#header {
+  margin-bottom: 5px;
+  padding: 0;
+  height: 90px;
+  background-color: #264061;
 }
 
-#wrap {
-  margin:0 auto;
-}
-#header4 {
-    width: 1300px;
-    height: 93px;
-    padding:0;
-    background-image:url('redesign2/header.jpg');
-    /*background-color: #264061;    */
-}
-#header4 img{
-    margin-left:1100px;
-    background-image:url('redesign2/header.jpg');
-    /*background-color: #264061;    */
-}
-h1 {
-  margin:0;
-}
-#navigation4 {
-    /*background-color: #d8e4f0;  */
-    width: 1300px;
-    height: 39px;
-    padding:0;
-    background-image:url('redesign2/navigation.jpg');
+#navigation {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #D8E4F0;
+  height: 20px;
 }
 
 .welcomeHeader {
@@ -65,41 +68,15 @@ h1 {
   margin-bottom: 10px;
   margin-left: 3px;
   padding: 2px 0;
-  background-color: #d8e4f0;
+  background-color: #D8E4F0;
   font-size: 12pt;
-  text-align:center;
+  text-align: center;
 }
-
-#subheader {
-    /*background-color: #d8e4f0;  */
-    width: 1300px;
-    height: 499px;
-    padding:0px;
-    background-image:url('redesign2/subheader.jpg');
-}
-
-#tabSection {
-    width: 1300px;
-    /*height: 44px; */
-    padding:0px;
-    /*background-image:url('redesign2/tabSection.jpg');  */
-}
-
-#main {
-    width: 1300px;
-    height: 636px;
-    padding:0px;
-    background-image:url('redesign2/main_notabs.jpg');
-    text-align: center;
-
-}
-
 
 #footer {
-   width: 1300px;
-   /*height: 39px;
-   background-image:url('redesign2/footer3.jpg');    */
+  clear:both;
 }
+
 /* styles for the player area */
 /* table that contains the player and buttons */
 .playerTable
@@ -117,34 +94,31 @@ h1 {
   margin: 10px 3px;
 }
 
-#videoListTable
-{
-  font-family: Calibri, Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  background: #fff;
-  margin-left:auto;
-  margin-right:auto;
+#videoListTable {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5px;
-  width: 70%;
+  width: 85%;
   border-collapse: collapse;
   text-align: left;
-  border: 1px solid #d8e4f0;
+  border: 1px solid #D8E4F0;
 }
+
 #videoListTable th
 {
-    font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    padding: 2px 8px;
-    /*border-bottom: 2px solid #d8e4f0;   */
-    background-color: #254061;
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+  padding: 2px 8px;
+  border-bottom: 2px solid #d8e4f0;
 }
 #videoListTable td
 {
-    color: black;
-    padding: 2px 8px;
-    background-color: #dddddd;
+  color: black;
+  padding: 2px 8px;
 }
 
 #videoListTable a {
@@ -178,14 +152,15 @@ h1 {
   padding: 0;
   margin: 0;
   list-style: none;
-  line-height: 16px;
+  line-height: 18px;
 }
 
 #mainNav {
-  /*background: #d8e4f0; */
-  background-color: transparent;
+  background: #d8e4f0;
   width: 100%;
-
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
 #mainNav ul ul {
@@ -196,19 +171,19 @@ h1 {
   border: none;
   padding-top: 2px;
   padding-bottom: 2px;
-  background-color: transparent;
-  font-size: 16px;
+  color: #268cc4;
+  font-size: 10pt;
 }
 
 #subNav ul, #caseNav ul {
   margin-left: 0;
   list-style: none;
-  line-height: 16px;
+  line-height: 18px;
 }
 
 #subNav a, #caseNav a {
   color: #3e6399;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #subNav ul {
@@ -220,24 +195,21 @@ h1 {
   display: block;
   width: auto;
   padding: 1px 20px;
-  color: #404040;
+  color: black;
   font-weight: normal;
-  font-size: 20px;
-  font-weight: bolder;
+  font-size: 14pt;
 }
 
 #mainNav li {
   float: left;
   width: auto;
   margin: 0;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 12px;
 }
 
-#mainNav li ul { /* drop-down menu/second-level lists */
+#mainNav li ul { /* second-level lists */
   position: absolute;
-  background-color: #999999;
-  opacity: .95;
+  background: #d8e4f0;
   width: 14em;
   left: -999em;
   padding-bottom: 6px;
@@ -245,10 +217,8 @@ h1 {
 }
 
 #mainNav li ul a {
-  width: 8em;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: normal;
+  width: 9em;
+  color: black;
 }
 
 #mainNav li ul ul { /* third-and-above-level lists */
@@ -275,13 +245,11 @@ h1 {
 
 #mainNav ul ul a:hover, #subNav ul a:hover, #caseNav ul a:hover {
   text-decoration: underline;
-  color: #ffffff;
+  color: #000;
 }
 
 #mainNav ul ul a:hover {
-  width: 8.5em;
-  background: #666666;
-  opacity:.95;
+  background: #d8e4f0;
 }
 
 #mainNav ul li#-tab a {
@@ -292,13 +260,3 @@ h1 {
 }
 #subNav ul li a {color: #333;}
 #subNav ul li li a {color: #3e63ac;}
-
-.twtr-tweet-text {
-    font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}
-
-.twtr-hyperlink a{
-    font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-}

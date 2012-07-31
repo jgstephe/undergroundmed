@@ -30,18 +30,13 @@
 
 </head>
 <body>
-<div id="outerBody">
-  <script type="text/javascript" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-  <script type="text/javascript">
-      loadTwitter();
-  </script>
-</div>
-<div id="innerBody">
-<div id="header4">
-  <a href="http://www.med-u.org"><img src="assets/redesign2/medulogo2.png"/></a>
+<div id="wrap">
+
+<div id="header">
+  <img src="assets/logo.jpg"/></a>
 </div>
 
-<div id="navigation4">
+<div id="navigation">
   <div style="padding-top:5px; margin-left:auto; margin-right:auto; width:380px;">
     <div id="mainNav">
     <ul>
@@ -53,8 +48,8 @@
         </ul>
       </li>
       <li>|</li>
-      <li><a href="#" onclick="showContactDialog()">Get Involved</a>
-      <li>|</li>
+      <!--<li><a href="#" onclick="showContactDialog()">Get Involved</a>-->
+      <!--<li>|</li>-->
       <li><a href="#">About</a>
         <ul>
           <li><a href="#" onclick="aboutMission()">Our Mission</a></li>
@@ -66,23 +61,20 @@
       </div>
   </div>
 </div>
-<div id="wrap">
+
 
   <%= yield %>
 
-
-
-  <div id="footer">
-    <img src="assets/redesign2/footer5.jpg" />
-  </div>
+  <div id="footer"></div>
 </div>
-</div>
+
 <div id="progressDlg">
   <div id="progressText" ></div>
-  <!--<div><img id="progressImg"/></div>-->
 </div>
 
-<div id="infoDlg"><div id="infoHTML" ></div></div></div>
+<div id="infoDlg">
+  <div id="infoHTML" ></div>
+</div>
 
 <div id="contactDlg">
   <b>Want to help?</b><br/>

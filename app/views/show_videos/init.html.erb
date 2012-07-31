@@ -27,41 +27,56 @@
 
 </script>
 
-<div id="subheader">
-  <br />
-  <div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span></div>
-  <table class="playerTable"> <br />
-    <tr>
-      <td width="10%">
-        <img src="assets/redesign/left_arrow4.png" onclick="getPreviousVideo()" class="imgButtons"/>
-      <td style="text-align: center">
-            <div id="videoDiv" class="videoDivClass">Loading...</div>
-            <div id="videoControls"/>
-      </td>
-      <td width="10%">
-       <img src="assets/redesign/right_arrow4.png" onclick="getNextVideo()" class="imgButtons"/>
-    </tr>
-  </table>
-</div>
-
-<div id="tabSection">
-</div>
-
+Clinical concepts taught through <b>interactive, high-yield, 7 minute</b> videos - created by <b>medical students</b> and
+<b>reviewed</b> for factual correctness by <b>experienced</b> medical educators.
+<p>
 
 <div id="main">
 
-<h2 style="color:#254061;font-size:28px;padding-top:30px;">Welcome to UndergroundMed!</h2>
-<h1 style="color:black;font-size:20px;">Quick, high-yield, interactive videos on important clincal topics.</h1>
-<h1 style="color:black;font-size:20px;">Created by medical students and reviewed by experienced medical educators.<br /></h1>
-<div class="videoListDiv">
-  <table id="videoListTable">
+  <div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;">
+    <span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span>
+  </div>
+  <table class="playerTable">
     <tr>
-      <th>&nbsp;</th>
-      <th align="left">Title</th>
-      <th>Rating</th>
-      <th>Views</th>
+      <!--<td width="10%">-->
+      <!--<img src="assets/redesign/left_arrow4.png" onclick="getPreviousVideo()" class="imgButtons"/>-->
+      <!--</td>-->
+      <td style="text-align: center">
+        <div id="videoDiv" class="videoDivClass">Loading...</div>
+        <div id="videoControls"/>
+      </td>
+      <!--<td width="10%">-->
+      <!--<img src="assets/redesign/right_arrow4.png" onclick="getNextVideo()" class="imgButtons"/>-->
+      <!--</td>-->
     </tr>
-   </table>
+    <td style="text-align: center">
+      <img src="assets/previous.png" title="Previous Video" onclick="getPreviousVideo()" class="imgButtons"/>
+      <img src="assets/next.png"  title="Next Video" onclick="getNextVideo()" class="imgButtons"/>
+    </td>
+    <tr>
+
+    </tr>
+  </table>
+
+  <!--<div class="welcomeHeader">Welcome to UndergroundMed!</div>-->
+  <!--Quick, high-yield, interactive videos on important clincal topics.-->
+  <!--Created by medical students and reviewed by experienced medical educators.<br />-->
+  <div class="videoListDiv">
+    <table id="videoListTable">
+      <tr>
+        <th>&nbsp;</th>
+        <th align="left">Title</th>
+        <th>Rating</th>
+        <th>Views</th>
+      </tr>
+     </table>
+  </div>
+
 </div>
 
+<div id="outerBody">
+  <script type="text/javascript" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+  <script type="text/javascript">
+    loadTwitter();
+  </script>
 </div>
