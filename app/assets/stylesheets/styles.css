@@ -24,7 +24,7 @@ html {
 
 #innerbody {
     width: 980px;
-    background-color: #f5f6f9;
+    background-color: #fdfdfd;
     border-style: solid;
     border-width: 1px;
     border-color: #aaaaaa;
@@ -35,7 +35,7 @@ html {
     width: 980px;
     height: 96px;
     padding:0;
-    background-image:url('redesign3/header18.jpg');
+    background-image:url('redesign3/header19.jpg');
     border-style: solid;
     border-width: 1px;
     border-color: #aaaaaa;
@@ -51,7 +51,7 @@ html {
     margin-left:0px;
     text-align:center;
     padding:0;
-    background-color: #f5f6f9;
+    background-color: ##fdfdfd;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #aaaaaa;
@@ -63,7 +63,7 @@ html {
     margin-left: 10px;
     padding:0px;
     text-align: center;
-    background-color: #f5f6f9;
+    background-color: ##fdfdfd;
 }
 
 #column2 {

@@ -8,11 +8,7 @@
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header7.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header8.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header9.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" afterPath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="undergroundmed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +69,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="29" selection-start="410" selection-end="410" vertical-scroll-proportion="0.34120426">
+            <state line="37" column="44" selection-start="621" selection-end="621" vertical-scroll-proportion="0.3211334">
               <folding />
             </state>
           </provider>
@@ -560,7 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="410" selection-end="410" vertical-scroll-proportion="0.34120426">
+        <state line="37" column="44" selection-start="621" selection-end="621" vertical-scroll-proportion="0.3211334">
           <folding />
         </state>
       </provider>
