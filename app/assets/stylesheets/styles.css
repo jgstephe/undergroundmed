@@ -59,6 +59,7 @@ html {
 }
 
 .sidebar {
+    font-size: 11px;
     margin-top:0px;
     padding: 0px;
     width: 100%;
@@ -133,7 +134,7 @@ h3 {
 #videoListTable th
 {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     color: #404040;
     padding: 2px 8px;
@@ -141,7 +142,8 @@ h3 {
 }
 #videoListTable td
 {
-    color: black;
+    font-size: 11px;
+    color: #404040;
     padding: 2px 8px;
     background-color: white;
 }
@@ -221,14 +223,14 @@ h3 {
   padding: 1px 20px;
   color: #5d8db3;
   font-weight: bolder;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 #mainNav li {
   float: left;
   width: auto;
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
 }
 
@@ -238,15 +240,15 @@ h3 {
   opacity: .95;
   width: 10em;
   left: -999em;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
   z-index: 1;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 #mainNav li ul a {
   width: 8em;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: normal;
 }
 
@@ -278,10 +280,10 @@ h3 {
 }
 
 #mainNav ul ul a:hover {
-  width: 90%;
+  width: 70%;
   background: #666666;
   opacity:.95;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 #mainNav ul li#-tab a {
@@ -295,10 +297,10 @@ h3 {
 
 .twtr-tweet-text {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .twtr-hyperlink a{
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
 }

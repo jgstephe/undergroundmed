@@ -9,7 +9,7 @@ function loadTwitter() {
         theme: {
             shell: {
                 background: '#dddddd',
-                color: 'black'
+                color: '#aaaaaa'
             },
             tweets: {
                 background: 'white',
