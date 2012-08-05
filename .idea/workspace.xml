@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df71f551-6804-4540-bc6a-0a9737b6bde1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/about.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" afterPath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
     </list>
     <ignored path="undergroundmed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="init.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="12" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-13.076923">
+            <state line="40" column="12" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-26.153847">
               <folding />
             </state>
           </provider>
@@ -54,19 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="56" selection-start="238" selection-end="238" vertical-scroll-proportion="13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/about.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="18" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.27642277">
+            <state line="6" column="56" selection-start="238" selection-end="238" vertical-scroll-proportion="0.12028302">
               <folding />
             </state>
           </provider>
@@ -75,7 +64,16 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="9" selection-start="4100" selection-end="4107" vertical-scroll-proportion="-10.703704">
+            <state line="152" column="6" selection-start="2645" selection-end="2645" vertical-scroll-proportion="-11.333333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/about.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="3" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,8 +95,8 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
         <option value="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/about.js" />
       </list>
     </option>
@@ -532,28 +530,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="9" selection-start="4100" selection-end="4107" vertical-scroll-proportion="-10.703704">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="12" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="238" selection-end="238" vertical-scroll-proportion="13.730769">
+        <state line="152" column="6" selection-start="2645" selection-end="2645" vertical-scroll-proportion="-11.333333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/about.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.27642277">
+        <state line="33" column="3" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="12" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-26.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="56" selection-start="238" selection-end="238" vertical-scroll-proportion="0.12028302">
           <folding />
         </state>
       </provider>

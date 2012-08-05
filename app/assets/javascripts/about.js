@@ -20,12 +20,9 @@ var collaborationText = "This site is a collaboration between UndergroundMed, a 
     "written and produced by UndergroundMed; the web site is hosted and maintained through financial and technical support from MedU in support of UndergroundMed's " +
     "novel approach to teaching and building a community of student medical educators.";
 
-var missionStatement ="Our ultimate goal is to eliminate the frustrating barriers that surrounds medical education and to make it more " +
-    "accessible to all students by creating a site dedicated to the needs of the modern medical student.  Our videos are designed to be: fun, " +
-    "interactive, practical, contextual, high-yield, and time sensitive, and we are always looking for new ways to improve on our work.  " +
-    "The intent of our videos is not to teach every detail in existence, but to instead provide a contextual thinking framework that students" +
-    " can use to build their medical knowledge.  Rest assured that factual correctness and quality are very important to us - as our videos " +
-    "are checked for factual correctness by experienced and accomplished medical educators. " +
+var missionStatement ="Our goal is to use brief, practical, high-yield videos to make medical education more accessible and understandable for everyone. " +
+    "Students create all content on UndergroundMed, so information is tailored to what is most important for a medical student and presented in a way that is easy to understand. " +
+    "Videos are checked for factual correctness by experienced and accomplished medical educators. " +
     "<p/>" +
     "We are, and always intend to be, a student run organization - but one that also has support from nationally recognized and " +
     "accredited medical organizations. " +
