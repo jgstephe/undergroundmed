@@ -24,7 +24,7 @@ html {
 
 #innerbody {
     width: 980px;
-    background-color: #f9fafc;
+    background-color: #f5f7fa;
     border-style: solid;
     border-width: 1px;
     border-color: #aaaaaa;
@@ -35,7 +35,7 @@ html {
     width: 980px;
     height: 96px;
     padding:0;
-    background-image:url('redesign3/header22.jpg');
+    background-image:url('redesign3/header23.jpg');
     border-style: solid;
     border-width: 1px;
     border-color: #aaaaaa;
@@ -46,12 +46,12 @@ html {
 #subheader {
     color: #404040;
     font-weight: bolder;
-    font-size: 13px;
+    font-size: 14px;
     width: 980px;
     margin-left:0px;
     text-align:center;
     padding:0;
-    background-color: #f9fafc;
+    background-color: #f5f7fa;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #aaaaaa;
@@ -63,7 +63,7 @@ html {
     margin-left: 10px;
     padding:0px;
     text-align: center;
-    background-color: #f9fafc;
+    background-color: #f5f7fa;
 }
 
 #column2 {
@@ -71,7 +71,7 @@ html {
     margin-right: 20px;
     float: right;
     width: 270px;
-    background-color: #f9fafc;
+    background-color: #f5f7fa;
 
 }
 
@@ -86,7 +86,7 @@ html {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #f9fafc;
+    background-color: #f5f7fa;
     border-bottom-style:solid;
     border-bottom-width: 4px;
     border-bottom-color: #999999;
@@ -167,7 +167,7 @@ h3 {
     font-weight: bold;
     color: #404040;
     padding: 2px 8px;
-    background-color: #f9fafc;
+    background-color: #f5f7fa;
     border-bottom: 2px solid #aaaaaa;
 }
 #videoListTable td
@@ -176,7 +176,7 @@ h3 {
     font-color: #404040;
     color: #404040;
     padding: 2px 8px;
-    background-color: #f9fafc;
+    background-color: #f5f7fa;
 }
 
 #videoListTable a {
