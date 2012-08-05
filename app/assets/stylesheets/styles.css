@@ -15,7 +15,7 @@ html {
     font-size: 13px;
     padding:0;
     color:#404040;
-    width: 900px;
+    width: 980px;
     margin-left:auto;
     margin-right:auto;
    background-color: #f1f1f1;
@@ -51,7 +51,7 @@ html {
     margin-left:0px;
     text-align:center;
     padding:0;
-    background-color: #fdfdfd;
+    background-color: #fcfdfe;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #aaaaaa;
@@ -63,7 +63,7 @@ html {
     margin-left: 10px;
     padding:0px;
     text-align: center;
-    background-color: #fdfdfd;
+    background-color: #fcfdfe;
 }
 
 #column2 {
@@ -71,7 +71,7 @@ html {
     margin-right: 20px;
     float: right;
     width: 270px;
-    background-color: #fdfdfd;
+    background-color: #fcfdfe;
 
 }
 
@@ -86,7 +86,7 @@ html {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    background-color: white;
+    background-color: #fcfdfe;
     border-bottom-style:solid;
     border-bottom-width: 4px;
     border-bottom-color: #999999;
