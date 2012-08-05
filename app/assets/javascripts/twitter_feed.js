@@ -12,7 +12,7 @@ function loadTwitter() {
                 color: '#aaaaaa',
             },
             tweets: {
-                background: 'white',
+                background: '#f5f7fa',
                 color: 'black',
                 links: '#408bdb'
             }
