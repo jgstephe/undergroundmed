@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="df71f551-6804-4540-bc6a-0a9737b6bde1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" afterPath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
     </list>
     <ignored path="undergroundmed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +27,7 @@
       <file leaf-file-name="init.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="4" selection-start="1812" selection-end="1812" vertical-scroll-proportion="-7.8461537">
+            <state line="66" column="4" selection-start="1812" selection-end="1812" vertical-scroll-proportion="-29.423077">
               <folding />
             </state>
           </provider>
@@ -64,7 +63,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="14" selection-start="748" selection-end="748" vertical-scroll-proportion="0.8036364">
+            <state line="50" column="26" selection-start="898" selection-end="898" vertical-scroll-proportion="0.71090907">
               <folding />
             </state>
           </provider>
@@ -423,7 +422,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -523,14 +522,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="4" selection-start="1812" selection-end="1812" vertical-scroll-proportion="-7.8461537">
+        <state line="66" column="4" selection-start="1812" selection-end="1812" vertical-scroll-proportion="-29.423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="14" selection-start="748" selection-end="748" vertical-scroll-proportion="0.8036364">
+        <state line="50" column="26" selection-start="898" selection-end="898" vertical-scroll-proportion="0.71090907">
           <folding />
         </state>
       </provider>
