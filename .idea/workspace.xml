@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df71f551-6804-4540-bc6a-0a9737b6bde1" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" afterPath="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="undergroundmed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +37,16 @@
       <file leaf-file-name="init.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="12" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-26.153847">
+            <state line="77" column="10" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-25.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_feed.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="twitter_feed.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="36" selection-start="248" selection-end="248" vertical-scroll-proportion="0.19450802">
+            <state line="7" column="19" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -46,7 +55,7 @@
       <file leaf-file-name="youtube_player.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="9" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="45" column="29" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="3" selection-start="2603" selection-end="2603" vertical-scroll-proportion="-4.4074073">
+            <state line="26" column="29" selection-start="410" selection-end="410" vertical-scroll-proportion="0.34120426">
               <folding />
             </state>
           </provider>
@@ -93,11 +102,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" />
-        <option value="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/about.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
+        <option value="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
       </list>
     </option>
   </component>
@@ -514,23 +523,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="9" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="3" selection-start="2897" selection-end="2897" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="12" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-26.153847">
           <folding />
         </state>
       </provider>
@@ -542,16 +537,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
+    <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="3" selection-start="2603" selection-end="2603" vertical-scroll-proportion="-4.4074073">
+        <state line="77" column="10" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-25.576923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="248" selection-end="248" vertical-scroll-proportion="0.19450802">
+        <state line="7" column="19" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="29" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="29" selection-start="410" selection-end="410" vertical-scroll-proportion="0.34120426">
           <folding />
         </state>
       </provider>

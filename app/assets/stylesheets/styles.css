@@ -23,21 +23,23 @@ html {
 }
 
 #innerbody {
-    width: 900px;
-    background-color: #ffffff;
+    width: 980px;
+    background-color: #f5f6f9;
     border-style: solid;
     border-width: 1px;
     border-color: #aaaaaa;
+    border-radius: 10px;
 }
 
 #header4 {
-    width: 900px;
+    width: 980px;
     height: 96px;
     padding:0;
-    background-image:url('redesign3/header12.jpg');
+    background-image:url('redesign3/header18.jpg');
     border-style: solid;
     border-width: 1px;
     border-color: #aaaaaa;
+    border-radius: 10px;
     /*background-color: #264061;    */
 }
 
@@ -45,15 +47,15 @@ html {
     color: #404040;
     font-weight: bolder;
     font-size: 13px;
-    width: 900px;
+    width: 980px;
     margin-left:0px;
     text-align:center;
     padding:0;
-    background-color: white;
+    background-color: #f5f6f9;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #aaaaaa;
-    border-radius: 5px;
+    border-radius: 10px;
     /*background-color: #264061;    */
 }
 #column1 {
@@ -61,15 +63,15 @@ html {
     margin-left: 10px;
     padding:0px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #f5f6f9;
 }
 
 #column2 {
     margin-top:0px;
-    margin-right: 10px;
+    margin-right: 20px;
     float: right;
-    width: 200px;
-    background-color: #ffffff;
+    width: 270px;
+    background-color: #f5f6f9;
 
 }
 
@@ -99,7 +101,7 @@ h2 {
     text-align: center;
     background-color: #0071c1;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     border-bottom-style: groove;
     border-bottom-width: 3px;
     border-bottom-color: #6e6e6e;
@@ -114,9 +116,10 @@ h3 {
 }
 
 #footer {
-   width: 900px;
-    height: 10px;
+   width: 980px;
+    height: 20px;
    background-color: #0071c1;
+    border-radius: 5px;
    /*height: 39px;
    background-image:url('redesign2/footer3.jpg');    */
 }
@@ -248,7 +251,7 @@ h3 {
   padding: 1px 20px;
   color: #5d8db3;
   font-weight: bolder;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #mainNav li {
