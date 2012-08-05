@@ -28,18 +28,18 @@
 </script>
 <div id="innerbody">
 <div id="subheader">
-<br />
-<div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span></div>
+
+<div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b><span style="color:#5d8db3">Featured Video:&nbsp;</span></b><%= $featured_video_title %></span></div>
 <table class="playerTable"> <br />
   <tr>
-    <td width="10%">
-      <img src="assets/redesign3/left_arrow.gif" onclick="getPreviousVideo()" class="imgButtons"/>
+    <td class="videoNav" width="10%">
+      <img src="assets/redesign3/left_arrow3.gif" onclick="getPreviousVideo()" class="imgButtons"/>
     <td style="text-align: center">
       <div id="videoDiv" class="videoDivClass">Loading...</div>
       <div id="videoControls"/>
     </td>
-    <td width="10%">
-      <img src="assets/redesign3/right_arrow.gif" onclick="getNextVideo()" class="imgButtons"/>
+    <td class="videoNav" width="10%">
+      <img src="assets/redesign3/right_arrow3.gif" onclick="getNextVideo()" class="imgButtons"/>
   </tr>
 </table>  <br />
 </div>

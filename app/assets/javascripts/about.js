@@ -11,8 +11,8 @@ var foundersText =
         "<br/>" +
         "<b>Sharath Bhagavatula</b><br/>" +
         "Graduated from Cornell University with a major in Electrical and Computer Engineering. He is currently a 4th year medical student " +
-        "at NYU School of Medicine interested in radiology. Outside of the clinic, his academic interests include using technology to " +
-        "advance medicine through research and education. Other interests include tennis, basketball, and Matlab.";
+        "at NYU School of Medicine interested in radiology. Outside of the clinic, his academic interests include robotics, engineering " +
+        "research, and making websites. Other interests include tennis, basketball, and watching TV.";
 
 
 var collaborationText = "This site is a collaboration between UndergroundMed, a team of medical students, and <a href='#' onclick='openMeduWindow()'>MedU</a>, " +

@@ -42,6 +42,9 @@ html {
 }
 
 #subheader {
+    color: #404040;
+    font-weight: bolder;
+    font-size: 13px;
     width: 900px;
     margin-left:0px;
     text-align:center;
@@ -50,6 +53,7 @@ html {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #aaaaaa;
+    border-radius: 5px;
     /*background-color: #264061;    */
 }
 #column1 {
@@ -124,7 +128,13 @@ h3 {
   margin-right:auto;
   background: black;
   border-radius: 6px;
-  width:75%;
+  width:80%;
+}
+
+.videoNav:hover
+{
+    background-color: #222222;
+    opacity: .6;
 }
 
 /*video table*/
