@@ -12,9 +12,10 @@ a:hover {
 body,
 html {
     font-family: Calibri, Arial, Helvetica, sans-serif;
+    font-size: 11px;
     padding:0;
     color:#404040;
-    width: 1000px;
+    width: 900px;
     margin-left:auto;
     margin-right:auto;
    background-color: #ffffff;
@@ -22,15 +23,15 @@ html {
 }
 
 #header4 {
-    width: 1000px;
-    height: 107px;
+    width: 900px;
+    height: 96px;
     padding:0;
-    background-image:url('redesign3/header9.jpg');
+    background-image:url('redesign3/header10.jpg');
     /*background-color: #264061;    */
 }
 
 #subheader {
-    width: 1000px;
+    width: 900px;
     margin-left:0px;
     text-align:center;
     padding:0;
@@ -38,8 +39,7 @@ html {
     /*background-color: #264061;    */
 }
 #column1 {
-    width: 700px;
-    height: 636px;
+    width: 650px;
     margin-left: 10px;
     padding:0px;
     text-align: center;
@@ -49,7 +49,7 @@ html {
 #column2 {
     margin-top:0px;
     float: right;
-    width: 250px;
+    width: 200px;
     background-color: #ffffff;
 
 }
@@ -66,7 +66,7 @@ html {
     margin-left: auto;
     background-color: white;
     border-bottom-style:solid;
-    border-bottom-width: 5px;
+    border-bottom-width: 4px;
     border-bottom-color: #999999;
 }
 
@@ -75,26 +75,27 @@ h1 {
 }
 h2 {
     width:100%;
-    padding: 3px;
+    padding: 2px;
     text-align: center;
     background-color: #0071c1;
     color: white;
-    font-size: 17px;
+    font-size: 12px;
     border-bottom-style: groove;
-    border-bottom-width: 4px;
+    border-bottom-width: 3px;
     border-bottom-color: #6e6e6e;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 h3 {
     font-color: black;
     font-style: normal;
-    padding: 5px;
+    padding: 2px;
     text-align: center;
-    font-size: 16px;
+    font-size: 11px;
 }
 
 #footer {
-   width: 1000px;
+   width: 900px;
+    height: 10px;
    background-color: #0071c1;
    /*height: 39px;
    background-image:url('redesign2/footer3.jpg');    */
@@ -106,7 +107,7 @@ h3 {
   margin-left:auto;
   margin-right:auto;
   background: black;
-  border-radius: 10px;
+  border-radius: 6px;
   width:75%;
 }
 
@@ -121,9 +122,9 @@ h3 {
 #videoListTable
 {
   font-family: Calibri, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   background: #fff;
-  margin-left:10px;
+  margin-left:5px;
   margin-bottom: 5px;
   width: 90%;
   border-collapse: collapse;
@@ -132,7 +133,7 @@ h3 {
 #videoListTable th
 {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: bold;
     color: #404040;
     padding: 2px 8px;
@@ -195,22 +196,22 @@ h3 {
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #subNav ul, #caseNav ul {
   margin-left: 0;
   list-style: none;
-  line-height: 16px;
+  line-height: 12px;
 }
 
 #subNav a, #caseNav a {
   color: #3e6399;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 #subNav ul {
-  width: 134px;
+  width: 100px;
   margin-bottom: 0;
 }
 
@@ -220,14 +221,14 @@ h3 {
   padding: 1px 20px;
   color: #5d8db3;
   font-weight: bolder;
-  font-size: 19px;
+  font-size: 14px;
 }
 
 #mainNav li {
   float: left;
   width: auto;
   margin: 0;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -237,7 +238,7 @@ h3 {
   opacity: .95;
   width: 10em;
   left: -999em;
-  padding-bottom: 6px;
+  padding-bottom: 4px;
   z-index: 1;
   border-radius: 5px;
 }
@@ -245,7 +246,7 @@ h3 {
 #mainNav li ul a {
   width: 8em;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: normal;
 }
 
@@ -277,7 +278,7 @@ h3 {
 }
 
 #mainNav ul ul a:hover {
-  width: 100%;
+  width: 90%;
   background: #666666;
   opacity:.95;
   border-radius: 5px;
@@ -294,10 +295,10 @@ h3 {
 
 .twtr-tweet-text {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .twtr-hyperlink a{
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
 }

@@ -4,8 +4,8 @@ function loadTwitter() {
         type: 'profile',
         rpp: 4,
         interval: 30000,
-        width: 250,
-        height: 200,
+        width: 200,
+        height: 150,
         theme: {
             shell: {
                 background: '#dddddd',
