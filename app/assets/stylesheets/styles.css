@@ -163,7 +163,7 @@ h3 {
     font-weight: bold;
     color: #404040;
     padding: 2px 8px;
-    background-color: #eeeeee;
+    background-color: #f8f8f8;
     border-bottom: 2px solid #aaaaaa;
 }
 #videoListTable td
@@ -172,7 +172,7 @@ h3 {
     font-color: #404040;
     color: #404040;
     padding: 2px 8px;
-    background-color: #eeeeee;
+    background-color: #f8f8f8;
 }
 
 #videoListTable a {

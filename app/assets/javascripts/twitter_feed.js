@@ -8,7 +8,7 @@ function loadTwitter() {
         height: 150,
         theme: {
             shell: {
-                background: '#dddddd',
+                background: '#f1f1f1',
                 color: '#aaaaaa'
             },
             tweets: {
