@@ -5,15 +5,15 @@ function loadTwitter() {
         rpp: 4,
         interval: 30000,
         width: 250,
-        height: 300,
+        height: 200,
         theme: {
             shell: {
-                background: '#333333',
-                color: '#ffffff'
+                background: '#dddddd',
+                color: 'black'
             },
             tweets: {
-                background: '#000000',
-                color: '#ffffff',
+                background: 'white',
+                color: 'black',
                 links: '#408bdb'
             }
         },

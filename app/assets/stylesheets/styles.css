@@ -13,90 +13,89 @@ body,
 html {
     font-family: Calibri, Arial, Helvetica, sans-serif;
     padding:0;
-    color:#000;
-    width: 1610px;
+    color:#404040;
+    width: 1000px;
     margin-left:auto;
     margin-right:auto;
-    background-image:url('redesign2/backgroundtexture.jpg');
-   /* background-color: #e7edfc;   */
+   background-color: #ffffff;
 
 }
 
-#innerBody {
-    width: 1300px;
-    border: 2px solid #999999;
-    background-color: #f1f2f2;
+#header4 {
+    width: 1000px;
+    height: 107px;
+    padding:0;
+    background-image:url('redesign3/header9.jpg');
+    /*background-color: #264061;    */
 }
 
-#outerBody {
+#subheader {
+    width: 1000px;
+    margin-left:0px;
+    text-align:center;
+    padding:0;
+    background-color: #ffffff;
+    /*background-color: #264061;    */
+}
+#column1 {
+    width: 700px;
+    height: 636px;
+    margin-left: 10px;
+    padding:0px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#column2 {
+    margin-top:0px;
     float: right;
-    background-image:url('redesign2/backgroundtexture.jpg');
-    width: 300px;
+    width: 250px;
+    background-color: #ffffff;
+
 }
 
 #wrap {
   margin:0 auto;
 }
-#header4 {
-    width: 1300px;
-    height: 93px;
-    padding:0;
-    background-image:url('redesign2/header.jpg');
-    /*background-color: #264061;    */
+
+.sidebar {
+    margin-top:0px;
+    padding: 0px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-bottom-style:solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #999999;
 }
-#header4 img{
-    margin-left:1100px;
-    background-image:url('redesign2/header.jpg');
-    /*background-color: #264061;    */
-}
+
 h1 {
   margin:0;
 }
-#navigation4 {
-    /*background-color: #d8e4f0;  */
-    width: 1300px;
-    height: 39px;
-    padding:0;
-    background-image:url('redesign2/navigation.jpg');
-}
-
-.welcomeHeader {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 3px;
-  padding: 2px 0;
-  background-color: #d8e4f0;
-  font-size: 12pt;
-  text-align:center;
-}
-
-#subheader {
-    /*background-color: #d8e4f0;  */
-    width: 1300px;
-    height: 499px;
-    padding:0px;
-    background-image:url('redesign2/subheader.jpg');
-}
-
-#tabSection {
-    width: 1300px;
-    /*height: 44px; */
-    padding:0px;
-    /*background-image:url('redesign2/tabSection.jpg');  */
-}
-
-#main {
-    width: 1300px;
-    height: 636px;
-    padding:0px;
-    background-image:url('redesign2/main_notabs.jpg');
+h2 {
+    width:100%;
+    padding: 3px;
     text-align: center;
-
+    background-color: #0071c1;
+    color: white;
+    font-size: 17px;
+    border-bottom-style: groove;
+    border-bottom-width: 4px;
+    border-bottom-color: #6e6e6e;
+    border-radius: 6px;
 }
-
+h3 {
+    font-color: black;
+    font-style: normal;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
 
 #footer {
-   width: 1300px;
+   width: 1000px;
+   background-color: #0071c1;
    /*height: 39px;
    background-image:url('redesign2/footer3.jpg');    */
 }
@@ -106,7 +105,9 @@ h1 {
 {
   margin-left:auto;
   margin-right:auto;
-  width:95%;
+  background: black;
+  border-radius: 10px;
+  width:75%;
 }
 
 /*video table*/
@@ -120,31 +121,28 @@ h1 {
 #videoListTable
 {
   font-family: Calibri, Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   background: #fff;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:10px;
   margin-bottom: 5px;
-  width: 70%;
+  width: 90%;
   border-collapse: collapse;
   text-align: left;
-  border: 1px solid #d8e4f0;
 }
 #videoListTable th
 {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
+    color: #404040;
     padding: 2px 8px;
     /*border-bottom: 2px solid #d8e4f0;   */
-    background-color: #254061;
 }
 #videoListTable td
 {
     color: black;
     padding: 2px 8px;
-    background-color: #dddddd;
+    background-color: white;
 }
 
 #videoListTable a {
@@ -220,10 +218,9 @@ h1 {
   display: block;
   width: auto;
   padding: 1px 20px;
-  color: #404040;
-  font-weight: normal;
-  font-size: 20px;
+  color: #5d8db3;
   font-weight: bolder;
+  font-size: 19px;
 }
 
 #mainNav li {
@@ -238,10 +235,11 @@ h1 {
   position: absolute;
   background-color: #999999;
   opacity: .95;
-  width: 14em;
+  width: 10em;
   left: -999em;
   padding-bottom: 6px;
   z-index: 1;
+  border-radius: 5px;
 }
 
 #mainNav li ul a {
@@ -279,9 +277,10 @@ h1 {
 }
 
 #mainNav ul ul a:hover {
-  width: 8.5em;
+  width: 100%;
   background: #666666;
   opacity:.95;
+  border-radius: 5px;
 }
 
 #mainNav ul li#-tab a {
@@ -295,10 +294,10 @@ h1 {
 
 .twtr-tweet-text {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .twtr-hyperlink a{
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }

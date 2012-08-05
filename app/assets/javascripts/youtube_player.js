@@ -43,5 +43,5 @@ function loadPlayer(id) {
   // All of the magic handled by SWFObject (http://code.google.com/p/swfobject/)
   swfobject.embedSWF("http://www.youtube.com/v/" + videoID +
       "?version=3&enablejsapi=1&playerapiid=player1",
-      "videoDiv", "700", "423", "9", null, null, params, atts);
+      "videoDiv", "500", "302", "9", null, null, params, atts);
 }

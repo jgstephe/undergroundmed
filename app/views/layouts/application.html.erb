@@ -30,50 +30,44 @@
 
 </head>
 <body>
-<div id="outerBody">
-  <script type="text/javascript" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-  <script type="text/javascript">
-      loadTwitter();
-  </script>
-</div>
-<div id="innerBody">
-<div id="header4">
-  <a href="http://www.med-u.org"><img src="assets/redesign2/medulogo2.png"/></a>
-</div>
 
-<div id="navigation4">
-  <div style="padding-top:5px; margin-left:auto; margin-right:auto; width:380px;">
+
+
+<div id="header4">
+  <div style="padding-top:55px; float: right; width:380px;">
     <div id="mainNav">
-    <ul>
-      <li><a href="#">Videos</a>
-        <ul>
-          <%@category_list.each do |category| %>
-              <li><a href="#" onclick="getVideoListLocal('<%=category%>')"><%= category%></a></li>
-          <% end %>
-        </ul>
-      </li>
-      <li>|</li>
-      <li><a href="#" onclick="showContactDialog()">Get Involved</a>
-      <li>|</li>
-      <li><a href="#">About</a>
-        <ul>
-          <li><a href="#" onclick="aboutMission()">Our Mission</a></li>
-          <li><a href="#" onclick="aboutFounders()">Meet the Founders</a></li>
-          <li><a href="#" onclick="aboutCollaboration()">Collaboration</a></li>
+      <ul>
+        <li><a href="#">Videos</a>
+          <ul>
+            <%@category_list.each do |category| %>
+                <li><a href="#" onclick="getVideoListLocal('<%=category%>')"><%= category%></a></li>
+            <% end %>
           </ul>
-          </li>
-        </ul>
-      </div>
+        </li>
+        <li>|</li>
+        <li><a href="#" onclick="showContactDialog()">Get Involved</a>
+        <li>|</li>
+        <li><a href="#">About</a>
+          <ul>
+            <li><a href="#" onclick="aboutMission()">Our Mission</a></li>
+            <li><a href="#" onclick="aboutFounders()">Meet the Founders</a></li>
+            <li><a href="#" onclick="aboutCollaboration()">Collaboration</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
+
+
+
 <div id="wrap">
 
   <%= yield %>
 
 
 
-  <div id="footer">
-    <img src="assets/redesign2/footer5.jpg" />
+  <div id="footer">.
   </div>
 </div>
 </div>
