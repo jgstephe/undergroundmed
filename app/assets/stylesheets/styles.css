@@ -24,7 +24,7 @@ html {
 
 #innerbody {
     width: 980px;
-    background-color: #fdfdfd;
+    background-color: #f9fafc;
     border-style: solid;
     border-width: 1px;
     border-color: #aaaaaa;
@@ -51,7 +51,7 @@ html {
     margin-left:0px;
     text-align:center;
     padding:0;
-    background-color: #fcfdfe;
+    background-color: #f9fafc;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #aaaaaa;
@@ -63,7 +63,7 @@ html {
     margin-left: 10px;
     padding:0px;
     text-align: center;
-    background-color: #fcfdfe;
+    background-color: #f9fafc;
 }
 
 #column2 {
@@ -71,7 +71,7 @@ html {
     margin-right: 20px;
     float: right;
     width: 270px;
-    background-color: #fcfdfe;
+    background-color: #f9fafc;
 
 }
 
@@ -86,7 +86,7 @@ html {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    background-color: #fcfdfe;
+    background-color: #f9fafc;
     border-bottom-style:solid;
     border-bottom-width: 4px;
     border-bottom-color: #999999;
@@ -167,7 +167,7 @@ h3 {
     font-weight: bold;
     color: #404040;
     padding: 2px 8px;
-    background-color: #f8f8f8;
+    background-color: #f9fafc;
     border-bottom: 2px solid #aaaaaa;
 }
 #videoListTable td
@@ -176,7 +176,7 @@ h3 {
     font-color: #404040;
     color: #404040;
     padding: 2px 8px;
-    background-color: #f8f8f8;
+    background-color: #f9fafc;
 }
 
 #videoListTable a {
