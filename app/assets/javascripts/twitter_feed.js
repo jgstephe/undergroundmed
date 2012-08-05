@@ -5,11 +5,11 @@ function loadTwitter() {
         rpp: 4,
         interval: 30000,
         width: 200,
-        height: 175,
+        height: 174,
         theme: {
             shell: {
                 background: '#f1f1f1',
-                color: '#aaaaaa'
+                color: '#aaaaaa',
             },
             tweets: {
                 background: 'white',
