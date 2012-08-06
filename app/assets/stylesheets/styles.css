@@ -12,7 +12,7 @@ a:hover {
 body,
 html {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     padding:0;
     color:#404040;
     width: 980px;
@@ -41,7 +41,7 @@ html {
     width: 980px;
     height: 96px;
     padding:0;
-    background-image:url('redesign3/header24.jpg');
+    background-image:url('redesign3/header26.jpg');
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: #aaaaaa;
@@ -59,7 +59,7 @@ html {
 #subheader {
     color: #404040;
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 15px;
     width: 980px;
     margin-left:0px;
     text-align:center;
@@ -93,7 +93,7 @@ html {
 }
 
 .sidebar {
-    font-size: 11px;
+    font-size: 13px;
     margin-top:0px;
     padding: 0px;
     width: 100%;
@@ -115,7 +115,7 @@ h2 {
     text-align: center;
     background-color: #0071c1;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     border-bottom-style: groove;
     border-bottom-width: 3px;
     border-bottom-color: #6e6e6e;
@@ -126,7 +126,7 @@ h3 {
     font-style: normal;
     padding: 2px;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #footer {
@@ -171,7 +171,7 @@ h3 {
 #videoListTable
 {
   font-family: Calibri, Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   background: #fff;
   margin-left:5px;
   margin-bottom: 5px;
@@ -182,7 +182,7 @@ h3 {
 #videoListTable th
 {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     color: #404040;
     padding: 2px 8px;
@@ -191,7 +191,7 @@ h3 {
 }
 #videoListTable td
 {
-    font-size: 13px;
+    font-size: 14px;
     font-color: #404040;
     color: #404040;
     padding: 2px 8px;
@@ -246,18 +246,18 @@ h3 {
   padding-top: 2px;
   padding-bottom: 2px;
   background-color: transparent;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #subNav ul, #caseNav ul {
   margin-left: 0;
   list-style: none;
-  line-height: 12px;
+  line-height: 14px;
 }
 
 #subNav a, #caseNav a {
   color: #3e6399;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 #subNav ul {
@@ -271,14 +271,14 @@ h3 {
   padding: 1px 20px;
   color: #5d8db3;
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 #mainNav li {
   float: left;
   width: auto;
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -296,8 +296,8 @@ h3 {
 #mainNav li ul a {
   width: 8em;
   color: #ffffff;
-  font-size: 11px;
-  font-weight: normal;
+  font-size: 14px;
+  font-weight: bolder;
 }
 
 #mainNav li ul ul { /* third-and-above-level lists */
@@ -345,10 +345,10 @@ h3 {
 
 .twtr-tweet-text {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .twtr-hyperlink a{
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
