@@ -12,7 +12,7 @@ a:hover {
 body,
 html {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     padding:0;
     color:#404040;
     width: 980px;
@@ -126,7 +126,7 @@ h3 {
     font-style: normal;
     padding: 2px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #footer {
@@ -171,7 +171,7 @@ h3 {
 #videoListTable
 {
   font-family: Calibri, Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   background: #fff;
   margin-left:5px;
   margin-bottom: 5px;
@@ -182,7 +182,7 @@ h3 {
 #videoListTable th
 {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     color: #404040;
     padding: 2px 8px;
@@ -191,7 +191,7 @@ h3 {
 }
 #videoListTable td
 {
-    font-size: 14px;
+    font-size: 13px;
     font-color: #404040;
     color: #404040;
     padding: 2px 8px;
@@ -345,10 +345,10 @@ h3 {
 
 .twtr-tweet-text {
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .twtr-hyperlink a{
     font-family: Calibri, Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
