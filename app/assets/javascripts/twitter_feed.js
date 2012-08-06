@@ -4,16 +4,16 @@ function loadTwitter() {
         type: 'profile',
         rpp: 4,
         interval: 30000,
-        width: 270,
-        height: 400,
+        width: 200,
+        height: 357,
         theme: {
             shell: {
-                background: '#333333',
-                color: '#ffffff'
+                background: '#f1f1f1',
+                color: '#aaaaaa',
             },
             tweets: {
-                background: '#000000',
-                color: '#ffffff',
+                background: '#f5f7fa',
+                color: 'black',
                 links: '#408bdb'
             }
         },

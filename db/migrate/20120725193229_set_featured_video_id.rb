@@ -1,6 +1,6 @@
 class SetFeaturedVideoId < ActiveRecord::Migration
   def up
-   AppSettings.create :featured_video_id => "F8TYLT0-5fs"
+   AppSettings.create :featured_video_id => "az_PyTXFG9c"
   end
 
   def down
