@@ -14,7 +14,8 @@
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header7.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header8.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header9.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
     </list>
     <ignored path="undergroundmed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_feed.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="twitter_feed.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+            <state line="7" column="19" selection-start="172" selection-end="172" vertical-scroll-proportion="0.1361556">
               <folding />
             </state>
           </provider>
@@ -72,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="352" column="17" selection-start="6384" selection-end="6384" vertical-scroll-proportion="0.8394333">
+            <state line="352" column="17" selection-start="6384" selection-end="6384" vertical-scroll-proportion="-26.333334">
               <folding />
             </state>
           </provider>
@@ -106,9 +107,9 @@
         <option value="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/about.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/youtube_player.js" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
       </list>
     </option>
   </component>
@@ -546,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="28" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-22.23077">
@@ -562,7 +556,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="352" column="17" selection-start="6384" selection-end="6384" vertical-scroll-proportion="0.8394333">
+        <state line="352" column="17" selection-start="6384" selection-end="6384" vertical-scroll-proportion="-26.333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="172" selection-end="172" vertical-scroll-proportion="0.1361556">
           <folding />
         </state>
       </provider>

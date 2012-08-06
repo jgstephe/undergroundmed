@@ -5,7 +5,7 @@ function loadTwitter() {
         rpp: 4,
         interval: 30000,
         width: 200,
-        height: 363,
+        height: 357,
         theme: {
             shell: {
                 background: '#f1f1f1',
