@@ -11,6 +11,9 @@
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header16.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header17.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header21.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header7.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header8.jpg" afterPath="" />
       <change type="DELETED" beforePath="C:\Sites\undergroundmed\app\assets\images\redesign3\header9.jpg" afterPath="" />
@@ -75,7 +78,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="298" column="15" selection-start="5269" selection-end="5269" vertical-scroll-proportion="0.29752067">
+            <state line="43" column="44" selection-start="831" selection-end="831" vertical-scroll-proportion="0.23730814">
               <folding />
             </state>
           </provider>
@@ -562,7 +565,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="298" column="15" selection-start="5269" selection-end="5269" vertical-scroll-proportion="0.29752067">
+        <state line="43" column="44" selection-start="831" selection-end="831" vertical-scroll-proportion="0.23730814">
           <folding />
         </state>
       </provider>
