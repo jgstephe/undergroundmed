@@ -7,7 +7,7 @@ function getCurrentDate() {
   var newDate = new Date();
 
   dObject.setYear(newDate.getUTCFullYear());
-  dObject.setMonth(newDate.getUTCMonth());
+  dObject.setMonth(newDate.getUTCMonth()+1);
   dObject.setDay(newDate.getUTCDate());
   dObject.setHours(newDate.getUTCHours());
   dObject.setMinutes(newDate.getUTCMinutes());
