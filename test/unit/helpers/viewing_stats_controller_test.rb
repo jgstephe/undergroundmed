@@ -5,11 +5,8 @@ class ViewingStatsControllerTest < ActionController::TestCase
   def setup
     @start_date = '{"year":2012,"month":6,"day":23,"hours":9,"minutes":43,"seconds":53,"tzOffset":240}'
     @end_date = '{"year":2012,"month":6,"day":23,"hours":9,"minutes":48,"seconds":50,"tzOffset":240}'
+    @restart_date = '{"year":2012,"month":6,"day":23,"hours":9,"minutes":50,"seconds":50,"tzOffset":240}'
     @controller = ViewingStatsController.new
-  end
-
-  def start_play
-    ViewingStatsController.action(:start_play)
   end
 
   def test_start_play
@@ -128,7 +125,74 @@ class ViewingStatsControllerTest < ActionController::TestCase
     assert_equal(true, has_error)
   end
 
+  def test_restart_on_pause
 
+    user_name = "fred"
+    video_name = "once upon a time"
+    video_id = "12345"
+    start_date =  @start_date
+    end_date = nil
+    minutes_watched = nil
+    id = nil
+    tzoffset = 240
+
+    params = get_test_params user_name, video_name, video_id, start_date, end_date, minutes_watched , id, tzoffset
+
+    env = Rack::MockRequest.env_for("/",:params =>  params)
+
+    endpoint = ViewingStatsController.action(:start_play)
+    body = endpoint.call(env)
+    assert_not_nil(body)
+
+    id = JSON.parse(body[2].body)[0]
+    assert_not_nil(id)
+
+    stats = ViewingStats.find(id.to_i)
+    assert_not_nil(stats)
+
+    assert_equal(user_name, stats.user_name)
+    assert_equal(video_name, stats.video_name)
+    assert_equal(video_id, stats.video_id)
+    check_some_date(stats.start_date)
+    assert_nil(stats.end_date)
+    assert_equal(minutes_watched, stats.minutes_watched)
+    assert_equal(id, stats.id)
+
+    end_date = @end_date
+    env = Rack::MockRequest.env_for("/",:params => {ViewingStatsController::ID_PARAM => id.to_s, ViewingStatsController::ENDDATE_PARAM => end_date })
+
+    endpoint = ViewingStatsController.action(:end_play)
+    body = endpoint.call(env)
+    assert_not_nil(body)
+
+    stats2 = ViewingStats.find(id.to_i)
+    assert_not_nil(stats2.end_date)
+    assert_equal(5, stats2.minutes_watched)
+
+    restart_date = @restart_date
+    env = Rack::MockRequest.env_for("/",:params => {ViewingStatsController::ID_PARAM => id.to_s, ViewingStatsController::STARTDATE_PARAM => restart_date })
+    endpoint = ViewingStatsController.action(:restart_play)
+    body = endpoint.call(env)
+    assert_not_nil(body)
+
+    stats3 = ViewingStats.find(id.to_i)
+    assert_not_nil(stats3.start_date)       # make this equal to restart_date
+    assert_nil(stats3.end_date)
+    assert_equal(5, stats3.minutes_watched)
+
+    # put in  a new end_date and make sure that the minutes watched is correct
+    end_date = '{"year":2012,"month":6,"day":23,"hours":9,"minutes":52,"seconds":50,"tzOffset":240}'
+    env = Rack::MockRequest.env_for("/",:params => {ViewingStatsController::ID_PARAM => id.to_s, ViewingStatsController::ENDDATE_PARAM => end_date })
+
+    endpoint = ViewingStatsController.action(:end_play)
+    body = endpoint.call(env)
+    assert_not_nil(body)
+
+    stats4 = ViewingStats.find(id.to_i)
+    assert_not_nil(stats4.end_date)
+    assert_equal(7, stats4.minutes_watched)
+
+  end
 
   def test_get_params
 
@@ -138,7 +202,7 @@ class ViewingStatsControllerTest < ActionController::TestCase
     start_date =  @start_date
     end_date = @start_date
     minutes_watched = 56
-    id = 27
+    id = nil
     tzoffset = 240
 
     params = get_test_params user_name, video_name, video_id, start_date, end_date, minutes_watched , id, tzoffset
@@ -180,22 +244,34 @@ class ViewingStatsControllerTest < ActionController::TestCase
     stats.start_date = '{"year":2012,"month":6,"day":23,"hours":9,"minutes":43,"seconds":53,"tzOffset":240}'
     stats.end_date = '{"year":2012,"month":6,"day":23,"hours":9,"minutes":45,"seconds":53,"tzOffset":240}'
 
-     elapsed_time = @controller.get_elapsed_time(stats.start_date, stats.end_date)
+     elapsed_time = @controller.get_elapsed_time(stats.start_date, stats.end_date, nil)
      assert_not_nil(elapsed_time)
      assert_equal(2, elapsed_time)
 
-     elapsed_time = @controller.get_elapsed_time(nil, stats.end_date)
+     elapsed_time = @controller.get_elapsed_time(nil, stats.end_date, nil)
      assert_nil(elapsed_time)
 
-     elapsed_time = @controller.get_elapsed_time(stats.start_date, nil)
+     elapsed_time = @controller.get_elapsed_time(stats.start_date, nil, nil)
      assert_nil(elapsed_time)
 
     stats.start_date = '{"year":2012,"month":6,"day":23,"hours":23,"minutes":59,"seconds":53,"tzOffset":240}'
     stats.end_date = '{"year":2012,"month":6,"day":24,"hours":0,"minutes":3,"seconds":10,"tzOffset":240}'
 
-    elapsed_time = @controller.get_elapsed_time(stats.start_date, stats.end_date)
+    elapsed_time = @controller.get_elapsed_time(stats.start_date, stats.end_date, nil)
     assert_not_nil(elapsed_time)
     assert_equal(3, elapsed_time)
+
+  end
+
+  def test_elapsed_time_with_pause
+    stats =  ViewingStats.new
+
+    stats.start_date = '{"year":2012,"month":6,"day":23,"hours":23,"minutes":59,"seconds":53,"tzOffset":240}'
+    stats.end_date = '{"year":2012,"month":6,"day":24,"hours":0,"minutes":3,"seconds":10,"tzOffset":240}'
+
+    elapsed_time = @controller.get_elapsed_time(stats.start_date, stats.end_date, 4)
+    assert_not_nil(elapsed_time)
+    assert_equal(7, elapsed_time)
 
   end
 
@@ -208,7 +284,7 @@ class ViewingStatsControllerTest < ActionController::TestCase
     stats.save
 
     stats2 = ViewingStats.find(stats.id.to_i)
-    elapsed_time = @controller.get_elapsed_time(stats2.start_date, stats2.end_date)
+    elapsed_time = @controller.get_elapsed_time(stats2.start_date, stats2.end_date, nil)
     assert_not_nil(elapsed_time)
     assert_equal(2, elapsed_time)
   end
@@ -223,7 +299,7 @@ class ViewingStatsControllerTest < ActionController::TestCase
                ViewingStatsController::ENDDATE_PARAM => enddate,
               ViewingStatsController::MINUTESWATCHED_PARAM => minutes,
               ViewingStatsController::ID_PARAM => id,
-               ViewingStatsController::TZOFFSET_PARAM => tzoffset
+               ViewingStatsController::TZOFFSET_PARAM => tzoffset ,
     }
 
     return params

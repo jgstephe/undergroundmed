@@ -14,6 +14,8 @@ Undergroundmed::Application.routes.draw do
 
   post "viewing_stats/end_play"
 
+  post "viewing_stats/restart_play"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

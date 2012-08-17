@@ -12,13 +12,17 @@ class ViewingStatsController < ApplicationController
   ERROR = "fail"
   SUCCESS = "success"
 
+  START_PLAY = "start_play"
+  END_PLAY = "end_play"
+  RESTART_PLAY = "restart_play"
+
   def start_play
   msg = ""
 
   begin
-    stats = get_params  params
+    stats  = get_params  params
     save_stats stats
-    msg = [stats.id]
+    msg = [stats.id, START_PLAY]
   rescue   Exception => exception
     puts "---- Exception: viewing_stats/start_play " + exception.to_s
     msg = [ERROR]
@@ -47,13 +51,46 @@ class ViewingStatsController < ApplicationController
 
     stats.end_date = end_date
 
-    elapsed_time = get_elapsed_time(stats.start_date, stats.end_date)
+    elapsed_time = get_elapsed_time(stats.start_date, stats.end_date, stats.minutes_watched)
     stats.minutes_watched = elapsed_time
 
     stats.save
-    msg = [id]
+    msg = [id, END_PLAY]
     rescue   Exception => exception
       puts "---- Exception: viewing_stats/end_play " + exception.to_s
+      msg = [ERROR]
+    end
+
+    render json:msg
+  end
+
+  # this is called when the video is restarted from being paused. We reset the start date, nil the end date
+  # and keep the viewing minutes value.
+  def restart_play
+    msg  = ""
+
+    begin
+      id = params[ID_PARAM]
+      restart_date = params[STARTDATE_PARAM]
+
+      if id == nil || id.length == 0
+        raise "No id"
+      end
+
+      if restart_date == nil || restart_date.length == 0
+        raise "No restart date"
+      end
+
+      # if the id doesn't exist an exception will be raised
+      stats = ViewingStats.find(id.to_i)
+
+      stats.start_date = restart_date
+      stats.end_date = nil
+
+      stats.save
+      msg = [id, RESTART_PLAY]
+    rescue   Exception => exception
+      puts "---- Exception: viewing_stats/restart_play " + exception.to_s
       msg = [ERROR]
     end
 
@@ -77,7 +114,7 @@ class ViewingStatsController < ApplicationController
     stat.save
   end
 
-  def get_elapsed_time start_time, end_time
+  def get_elapsed_time start_time, end_time, minutes_watched
     elapsed_time = nil
 
     if start_time  == nil || end_time == nil
@@ -90,6 +127,11 @@ class ViewingStatsController < ApplicationController
 
     #Time arithmetic returns seconds
     elapsed_time = (end_time - start_time )/60
+
+    # this will be the case if the video was paused and then restarted
+    if(minutes_watched != nil)
+      elapsed_time += minutes_watched
+    end
 
     return elapsed_time.round
   end
