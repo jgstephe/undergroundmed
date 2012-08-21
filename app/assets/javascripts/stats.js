@@ -31,7 +31,7 @@ function recordStats(url,  startDate, endDate) {
       id: currentStats.getId(),
       startdate: startDate != null ? JSON.stringify(startDate) :"",
       enddate: endDate != null ? JSON.stringify(endDate) :"",
-      tzoffset:  startDate != null ? startDate.getTZOffset() :endDate.getTZOffset(),
+      tzoffset:  startDate != null ? startDate.getTZOffset() :endDate.getTZOffset()
       },
     success: function(data, status, xhr) {
       setId(data);
