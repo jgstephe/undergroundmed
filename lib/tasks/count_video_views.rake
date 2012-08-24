@@ -10,7 +10,8 @@ namespace :count_video_views do
     results = ViewingStats.find_by_sql("SELECT video_name, COUNT(video_name),  " +
 "sum(case when minutes_watched !=0 AND minutes_watched IS NOT NULL then 1  end) as watched_count,   " +
 "sum(case when minutes_watched >= 7 AND minutes_watched IS NOT NULL then 1  end) as full_viewing,   " +
-"sum(case when minutes_watched = 0 OR minutes_watched IS NULL then 1  end) as not_viewed  " +
+"sum(case when minutes_watched = 0 OR minutes_watched IS NULL then 1  end) as not_viewed,  " +
+"sum(case when minutes_watched IS NULL then 1  end) as unknown " +
 "FROM viewing_stats WHERE  video_name IS NOT NULL AND  " +
 "user_name != 'rlc' AND   video_name != '' " +
 "GROUP BY video_name " +
@@ -19,9 +20,9 @@ namespace :count_video_views do
      CSV.open(report_folder + "count_views.csv", "w") do |csv|
        csv << ["Timeframe: " + date_range[0].start + " - " + date_range[0].end]
        csv << ["Total views: " + total_views[0].count]
-       csv << ["Video", "Number of Views", "Viewed", "Watched till end", "Not Viewed"]
+       csv << ["Video", "Number of Views", "Viewed", "Watched till end", "Not Viewed", "Unknown"]
        for r in results
-       csv << [ r.video_name, r.count, r.watched_count, r.full_viewing, r.not_viewed ]
+       csv << [ r.video_name, r.count, r.watched_count, r.full_viewing, r.not_viewed, r.unknown ]
         end
      end
   end
