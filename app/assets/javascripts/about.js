@@ -1,8 +1,10 @@
 var foundersText =
     "<b>Xinran (Leo) Liu</b><br/>Graduated from Cornell University with a major in Chemistry and Chemical Biology.  " +
-        " He is currently a 4th year medical student at the Geisel School of Medicine at Dartmouth trying to decide which specialty to go into.  " +
-        "His interests outside of clinical practice include LEAN process improvement, entrepreneurship, and medical education.  " +
-        "In his free time, he enjoys reading, ultimate frisbee, basketball, tennis, ping pong, golf, drawing, among numerous other random things." +
+        " He is currently a 4th year " +
+        "medical student at the Geisel School of Medicine at Dartmouth going into Internal Medicine.  His interests " +
+        "outside of clinical practice include LEAN process improvement, entrepreneurship, and medical education.  " +
+        "In his free time, he enjoys reading, ultimate frisbee, basketball, tennis, ping pong, golf, drawing, " +
+        "among numerous other random things." +
         "<br/>" +
         " <b>Whitney de Luna</b><br/>" +
         " Graduated from Stanford University with a major in biological sciences. She is currently a 4th year medical student at the Geisel School of Medicine at Dartmouth interested in anesthesiology.   " +
