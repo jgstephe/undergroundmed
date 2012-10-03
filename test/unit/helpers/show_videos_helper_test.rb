@@ -161,7 +161,7 @@ class ShowVideosHelperTest < ActionController::TestCase
   def test_get_featured_video_id
     video_id = @controller.get_video_id_from_db
 
-    assert_equal("F8TYLT0-5fs", video_id)
+    assert_equal("az_PyTXFG9c", video_id)
   end
 
   def test_init_video_id
@@ -175,4 +175,61 @@ class ShowVideosHelperTest < ActionController::TestCase
 
   end
 
+  def test_get_video_to_play
+
+    video_id = "7w3F-U6j1yU"
+    featured_video_id = "az_PyTXFG9c"
+    params = {ShowVideosController::PLAYID_PARAM => video_id}
+    all_videos = get_all_videos_list
+
+    id_to_play = @controller.get_video_to_play(params, all_videos)
+    assert_equal(true, id_to_play == video_id)
+
+  end
+
+  def test_get_video_to_play_returns_featured_video
+
+    video_id = "7w3F-U6j1yU"
+    featured_video_id = "az_PyTXFG9c"
+    params = {"some_random_param" => video_id}
+    all_videos = get_all_videos_list
+
+    id_to_play = @controller.get_video_to_play(params, all_videos)
+    assert_equal(true, id_to_play == featured_video_id)
+
+  end
+
+  def test_get_video_to_play_bad_id
+
+    video_id = "7w3F-U6j1yU"
+    featured_video_id = "az_PyTXFG9c"
+    params = {ShowVideosController::PLAYID_PARAM => video_id}
+    all_videos = get_all_videos_list
+
+    id_to_play = @controller.get_video_to_play(params, all_videos)
+    assert_equal(true, id_to_play == featured_video_id)
+
+  end
+
+  def test_get_video_to_play_bad_id
+
+    video_id = "xyzzy"
+    featured_video_id = "az_PyTXFG9c"
+    params = {ShowVideosController::PLAYID_PARAM => video_id}
+    all_videos = get_all_videos_list
+
+    id_to_play = @controller.get_video_to_play(params, all_videos)
+    assert_equal(true, id_to_play == featured_video_id)
+
+  end
+
+
+  def get_all_videos_list
+    xml =  File.read("test/fixtures/videolist.xml");
+    all_video_list = []
+    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml, all_video_list))
+    ShowVideosController.get_current_list
+
+    return all_video_list
+  end
 end

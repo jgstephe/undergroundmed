@@ -7,15 +7,20 @@ class ShowVideosController < ApplicationController
   $featured_video_title=""
   $xor_key = 6
   $user = "unknown"
+  $runtime_environment
 
+  PLAYID_PARAM = "playId"
   SESSION_KEY_ALL_VIDEOS = "all_videos"
+
   def init
     video_list = get_current_list
     @category_list =  get_category_list(video_list)
-    $featured_video_id = get_video_id_from_db
+    #$featured_video_id = get_video_id_from_db
+    $featured_video_id = get_video_to_play params, video_list
     $featured_video_title =  get_featured_title (video_list)
     RunTimeEnvironment.log_runtime_environment()
     $user = get_user params
+    $runtime_environment = RunTimeEnvironment.get_runtime_environment
   end
 
   def get_category_list  (video_list)
@@ -187,6 +192,22 @@ class ShowVideosController < ApplicationController
     settings = AppSettings.first
 
     return settings.featured_video_id
+  end
+
+  def get_video_to_play params, video_list
+
+    if params[PLAYID_PARAM] != nil
+      video_id = params[PLAYID_PARAM]
+
+      if(find_id(video_id, video_list))
+        return params[PLAYID_PARAM]
+      else
+        return get_video_id_from_db
+      end
+    else
+      return get_video_id_from_db
+    end
+
   end
 
 end

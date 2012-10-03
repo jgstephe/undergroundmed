@@ -16,6 +16,7 @@ function loadVideo(id) {
   }
 
   newStats(id);
+  setCurrentURL(id);
 }
 
 function cueVideo(id) {
@@ -29,6 +30,7 @@ function cueVideo(id) {
   }
 
   newStats(id);
+  setCurrentURL(id);
 }
 
 //This function is called when an error is thrown by the player

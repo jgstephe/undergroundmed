@@ -19,12 +19,20 @@
   $(document).ready(function(){
     _run();
     getVideoList("<%=VideoAttributes::ALL %>");
+    setCurrentURL(featuredVideoId);
 
     createProgressDialog();
     createInfoDialog();
     createContactDialog();
 
   });
+
+  function doShare() {
+
+    $("#shareInput").val(currentVideoURL);
+    $("#shareInput").toggle();
+    $("#shareText").toggle();
+  }
 
 </script>
 <div id="innerbody">
@@ -42,7 +50,12 @@
     <td class="videoNav" width="10%">
       <img src="assets/redesign3/right_arrow3.gif" onclick="getNextVideo()" class="imgButtons"/>
   </tr>
-</table>  <br />
+</table>
+  <div style="margin-top: 5px;">
+    <button type="button" onclick="doShare()">Share this video</button>
+    <input id="shareInput" style="display:none; width:30%; margin-right: 5px;"/>
+    <span id="shareText" style="display: none;color:#696969;">Copy this link an send it to a friend</span>
+  </div>
 </div>
 
 <div id="column2">

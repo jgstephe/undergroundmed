@@ -5,6 +5,7 @@ var firstPosition = null;
 var lastPosition = null;
 var allVideosList = null;
 var allCategories = "All";
+var currentVideoURL = "";
 
 function getVideoList(value)    {
   showProgressDialog("Getting list of " + value + " videos...");
@@ -198,4 +199,28 @@ function showVideoTitle(id) {
 function setPositionForFeaturedVideo(id) {
   var video = findVideoByid(id);
   currentPosition = video.order;
+}
+
+function setCurrentURL(videoId) {
+  var url = getRuntimeURL();
+  currentVideoURL = url + "?playId=" + videoId
+
+  $("#shareInput").css("display", "none");
+  $("#shareText").css("display", "none");
+}
+
+function getRuntimeURL() {
+  var url = "videos.undergroundmed.net";
+  var httpStr = "http://"
+
+  switch (runtimeEnvironment) {
+    case "development":
+      url = "localhost:3000";
+      break;
+    case "staging":
+      url ="strong-stream-7408.herokuapp.com/";
+      break;
+  }
+
+  return httpStr+url;
 }
