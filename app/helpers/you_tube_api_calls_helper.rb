@@ -28,14 +28,17 @@ module YouTubeApiCallsHelper
     def YouTubeApiCallsHelper.parse_video_list (xml, video_list)
     doc = REXML::Document.new xml
     added_count  = 0;
+      begin
+        doc.elements.each("feed/entry") do |element|
+        video =  parse_one_entry(element)
 
-    doc.elements.each("feed/entry") do |element|
-      video =  parse_one_entry(element)
-
-      if(!video.nil?)
-        video_list.push(video)
-        added_count += 1
+        if(!video.nil?)
+          video_list.push(video)
+          added_count += 1
+          end
         end
+      rescue   Exception => exception
+        puts "---- Exception: YouTubeApiCallsHelper.parse_video_list: " + exception.to_s
       end
 
       number_unknown_videos(video_list)

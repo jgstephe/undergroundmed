@@ -1,7 +1,8 @@
 require 'csv'
 namespace :count_video_views do
 
-  report_folder = "lib/tasks/reports/"
+  #report_folder = "lib/tasks/reports/"
+  report_folder = "archived_reports/"
 
   desc "count the number of views of each video"
   task :count_views => :environment do

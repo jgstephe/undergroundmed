@@ -1,0 +1,34 @@
+We are using the free database plan from Heroku which allows up to 14,000 rows. When we get close to the limit we need to summarize the data and
+archive it and then delete the data in the database which resets Herokus counters. The steps below describe the process:
+
+Pull the data from the database:
+heroku db:pull HEROKU_POSTGRESQL_ONYX --app strong-meadow-4887
+
+Run the count_video_views rake task
+Export the data:
+From Terminal run psql:
+psql undergroundmed_development
+
+Then exoirt the db to a csv file (choose a name that matches the rake task name):
+\copy viewing_stats to '/Users/rlcohen/Projects/undergroundmed/archived_reports/test.csv';
+
+Put the app in maintenance mode so we can clear the database:
+heroku maintenance:on --app strong-meadow-4887
+
+Start postgrsql command line session:
+heroku pg:psql HEROKU_POSTGRESQL_ONYX --app strong-meadow-4887
+
+Check the count (there should be a positive number):
+SELECT COUNT(*) FROM viewing_stats;
+
+Clear the database
+DELETE FROM viewing_stats;
+
+Check the count again (it should be 0)
+
+Turn maintenance mode off:
+heroku maintenance:off --app strong-meadow-4887
+
+Put the files in the MiniServer/UndergroundMed/Archived Reports folder
+
+
