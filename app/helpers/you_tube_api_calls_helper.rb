@@ -30,13 +30,19 @@ module YouTubeApiCallsHelper
     added_count  = 0;
       begin
         doc.elements.each("feed/entry") do |element|
-        video =  parse_one_entry(element)
-
-        if(!video.nil?)
-          video_list.push(video)
-          added_count += 1
+          begin
+            video =  parse_one_entry(element)
+          rescue Exception => exception
+            video = nil
+            puts "---- Exception: YouTubeApiCallsHelper.parse_video_list: " + exception.to_s
+            puts "count:" + added_count.to_s
           end
-        end
+
+          if(!video.nil?)
+            video_list.push(video)
+            added_count += 1
+            end
+          end
       rescue   Exception => exception
         puts "---- Exception: YouTubeApiCallsHelper.parse_video_list: " + exception.to_s
       end
